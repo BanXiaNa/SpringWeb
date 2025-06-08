@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.banxia.mapper.ClazzsMapper">
+
+<!--    添加新班级-->
+    <insert id="addClazzs">
+        insert into clazz
+        (name, room, begin_date, end_date, master_id, subject, create_time, update_time)
+        values (#{name},#{room},#{beginDate},#{endDate},#{masterId},#{subject},#{createTime},#{updateTime})
+    </insert>
+
+<!--    更新班级信息-->
+    <update id="updateClass">
+        update clazz c
+        set c.name = #{name},
+            c.room = #{room},
+            c.begin_date = #{beginDate},
+            c.end_date = #{endDate},
+            c.master_id = #{masterId},
+            c.subject = #{subject},
+            c.create_time = #{createTime},
+            c.update_time = #{updateTime}
+        where c.id = #{id}
+    </update>
+
+<!--    根据id删除班级-->
+    <delete id="deleteClassById">
+        delete from clazz c where c.id = #{id};
+    </delete>
+
+<!--    分页查询班级-->
+    <select id="page" resultType="com.banxia.pojo.Clazz">
+        select c.id,
+               c.name,
+               c.room,
+               c.begin_date,
+               c.end_date,
+               c.master_id,
+               c.subject,
+               c.create_time,
+               c.update_time,
+               e.name masterName,
+               case when c.begin_date &gt; now() then '未开班'
+                    when c.end_date &gt; now() then '已开班'
+                    else '已结课' end status
+        from clazz c
+                 left join emp e on c.master_id = e.id
+        <where>
+            <if test="name != null and name != ''">
+                c.name like (concat('%',#{name},'%'))
+            </if>
+            <if test="begin != null">
+                and c.end_date &gt; #{begin}
+            </if>
+            <if test="end != null">
+                and c.end_date &lt; #{end}
+            </if>
+        </where>
+    </select>
+
+<!--    根据id查询班级-->
+    <select id="findClassById" resultType="com.banxia.pojo.Clazz">
+        select * from clazz c where c.id = #{id}
+    </select>
+
+<!--    查询所有班级-->
+    <select id="findAllClazzs" resultType="com.banxia.pojo.Clazz">
+        select c.id,
+               c.name,
+               c.room,
+               c.begin_date,
+               c.end_date,
+               c.master_id,
+               c.subject,
+               c.create_time,
+               c.update_time
+        from clazz c
+    </select>
+</mapper>

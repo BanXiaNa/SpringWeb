@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.banxia.mapper.StudentMapper">
+
+<!--    添加学生-->
+    <insert id="addStudent">
+        insert into student
+        (name, no, gender, phone, id_card, is_college, address, degree, graduation_date, clazz_id, create_time, update_time)
+            value (#{name},#{no},#{gender},#{phone},#{idCard},#{isCollege},#{address},#{degree},#{graduationDate},#{clazzId},#{createTime},#{updateTime})
+    </insert>
+
+<!--    更新学生信息-->
+    <update id="updateStudent">
+        update student
+        set name = #{name},
+            no = #{no},
+            gender = #{gender},
+            phone = #{phone},
+            id_card = #{idCard},
+            is_college = #{isCollege},
+            address = #{address},
+            degree = #{degree},
+            graduation_date = #{graduationDate},
+            clazz_id = #{clazzId},
+            update_time = #{updateTime}
+        where id = #{id}
+    </update>
+
+<!--    违纪处理-->
+    <update id="violation">
+        update student s
+        set
+            s.violation_count = s.violation_count+1,
+            s.violation_score = s.violation_score+ #{score}
+        where s.id = #{id}
+    </update>
+
+    <!--    通过id删除学生-->
+    <delete id="deleteStudentByIds">
+        delete from student s
+        <where>
+            s.id in
+            <foreach collection="ids" item="id" separator="," open="(" close=")">
+                #{id}
+            </foreach>
+        </where>
+
+    </delete>
+
+
+    <!--    根据班级id查询学生人数-->
+    <select id="findStudentCountByClazzId" resultType="java.lang.Integer">
+        select count(*) from student where clazz_id = #{id}
+    </select>
+
+<!--    分页查询学生信息-->
+    <select id="page" resultType="com.banxia.pojo.Student">
+        select
+            s.id,
+            s.name,
+            s.no,
+            s.gender,
+            s.phone,
+            s.id_card,
+            s.is_college,
+            s.address,
+            s.degree,
+            s.graduation_date,
+            s.clazz_id,
+            s.violation_count,
+            s.violation_score,
+            s.create_time,
+            s.update_time,
+            c.name clazzName
+        from student s
+        left join clazz c
+        on s.clazz_id = c.id
+        order by s.update_time desc
+        <where>
+            <if test="name != null and name != ''">
+                s.name like concat('%',#{name},'%')
+            </if>
+            <if test="degree != null">
+                and s.degree &lt; #{degree} +1
+            </if>
+            <if test="clazzId != null">
+                and s.clazz_id = #{clazzId}
+            </if>
+
+        </where>
+    </select>
+
+<!--    根据id查询学生信息-->
+    <select id="findStudentById" resultType="com.banxia.pojo.Student">
+        select * from student where id = #{id}
+    </select>
+
+<!--    统计班级学生人数-->
+    <select id="getstudentCountData" resultType="java.util.Map">
+        select c.name clazzList
+             ,count(*) dataList
+        from student s ,clazz c
+        where s.clazz_id = c.id
+        group by clazz_id
+        order by dataList desc;
+    </select>
+
+<!--    查询学生学历分布-->
+    <select id="getStudentDegreeData" resultType="java.util.Map">
+        select
+            case s.degree
+                when 1 then '初中'
+                when 2 then '高中'
+                when 3 then '大专'
+                when 4 then '本科'
+                when 5 then '硕士'
+                when 6 then '博士'end name,
+            count(*) value
+        from student s
+        group by s.degree;
+    </select>
+</mapper>

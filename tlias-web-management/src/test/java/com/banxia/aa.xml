@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>KingYen.&apos;s Blog | Future Full-Stack Developer 👨‍💻</title>
+        <description>Studying programming at university since 2022 🚀</description>
+        <link>https://www.kingyen.cn/</link>
+        <item>
+            <title>About oerv</title>
+            <link>https://www.kingyen.cn/blog/oerv/about/</link>
+            <guid isPermaLink="true">https://www.kingyen.cn/blog/oerv/about/</guid>
+            <description>Summary of my work in the OpenEuler team at PLAT Labs, ISCAS</description>
+            <pubDate>Mon, 04 Mar 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title>DeepSeek 为什么会火，大模型从训练到推理之路的转变</title>
+            <link>https://www.kingyen.cn/blog/llm/deepseek/</link>
+            <guid isPermaLink="true">https://www.kingyen.cn/blog/llm/deepseek/</guid>
+            <description>年初的时间，DeepSeek 彻底走向爆火，爆火的背后还有着以 DeepSeek-R1
+                为代表的推理模型的涌上历史舞台
+            </description>
+            <pubDate>Fri, 21 Feb 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title>Fix cmake compilation issues with clang</title>
+            <link>https://www.kingyen.cn/blog/oerv/cmake/</link>
+            <guid isPermaLink="true">https://www.kingyen.cn/blog/oerv/cmake/</guid>
+            <description>Summary of my work in the OpenEuler team at PLAT Labs, ISCAS</description>
+            <pubDate>Mon, 04 Mar 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title>自从有了Trae，让我实现从 conda 到 uv 的 Python 包管理自由😋😋😋</title>
+            <link>https://www.kingyen.cn/blog/llm/uv/</link>
+            <guid isPermaLink="true">https://www.kingyen.cn/blog/llm/uv/</guid>
+            <description>这一份关于为什么以及如何开始使用 uv 的全面指南——这个包管理器正在 Python 世界掀起风暴。让我们一起在
+                Trae 的指引下，无痛上手 uv 这个快速且疯狂的 Python 开发新生态。
+            </description>
+            <pubDate>Wed, 26 Mar 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title>Singleton 单例模式</title>
+            <link>https://www.kingyen.cn/blog/backend/design-patten/singleton/</link>
+            <guid isPermaLink="true">https://www.kingyen.cn/blog/backend/design-patten/singleton/</guid>
+            <description>单例模式可能是最简单也最常用的设计模式之一，其实整体来讲实现起来并不难，但是难点在于懒汉模式下，如何保证在并发环境下的线程安全，纵览了Go和Java中的实现模式，其实总体来讲都是采用了
+                Dubbo Check 的方式保证了线程安全问题，应该属于一个非常经典的解法了
+            </description>
+            <pubDate>Thu, 26 Dec 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title>万字解读带你跑通 Eino，带你在 2025 打通Go LLM 应用开发的任督二脉 🎉🎉🎉</title>
+            <link>https://www.kingyen.cn/blog/backend/eino/eino-base-demo/</link>
+            <guid isPermaLink="true">https://www.kingyen.cn/blog/backend/eino/eino-base-demo/</guid>
+            <description>想不到 2025 年刚开始，CloudWeGo 团队就做出了大动作，开源了 Go 生态下第一个由官方维护的 AI
+                应用开发框架。
+            </description>
+            <pubDate>Wed, 15 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title>当课程设计被指导老师说没有创新点，那我只好用 AI 打败魔法啦🧙🧙🧙</title>
+            <link>https://www.kingyen.cn/blog/backend/eino/tool-call/</link>
+            <guid isPermaLink="true">https://www.kingyen.cn/blog/backend/eino/tool-call/</guid>
+            <description>相信很多人在 C 语言课程设计的时候都做过类似记事本之类的小工具，but 时间长了，很难避免失去创新力，那今天就带着大家用
+                AI 去打败魔法，做一个专业独一份的 TODO 小工具吧😋😋😋
+            </description>
+            <pubDate>Mon, 20 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title>Factory 工厂模式</title>
+            <link>https://www.kingyen.cn/blog/backend/design-patten/factory/</link>
+            <guid isPermaLink="true">https://www.kingyen.cn/blog/backend/design-patten/factory/</guid>
+            <description>
+                其实每一个后端工程师都避不开依赖注入的理念，而依赖注入一般都离不开工厂模式，所以今天就一同打通依赖注入的基础吧
+            </description>
+            <pubDate>Thu, 26 Dec 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title>Go 并发就是如此简单——带你走读 Ants 🐜🐜🐜</title>
+            <link>https://www.kingyen.cn/blog/backend/ants/</link>
+            <guid isPermaLink="true">https://www.kingyen.cn/blog/backend/ants/</guid>
+            <description>ants 是一个高性能的 goroutine 池，实现了对大规模 goroutine 的调度管理、goroutine
+                复用，允许使用者在开发并发程序的时候限制 goroutine 数量，复用资源，达到更高效执行任务的效果。
+            </description>
+            <pubDate>Mon, 05 May 2025 00:00:00 GMT</pubDate>
+        </item>
+    </channel>
+</rss>

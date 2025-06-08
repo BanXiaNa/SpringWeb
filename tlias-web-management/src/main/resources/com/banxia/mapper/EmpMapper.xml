@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.banxia.mapper.EmpMapper">
+<!--    插入员工基本信息-->
+    <insert id="inster" useGeneratedKeys = "true" keyProperty = "id">
+        insert into emp(username, name, gender, phone, job, salary, image, entry_date, dept_id, create_time, update_time)
+        values (#{username},#{name},#{gender},#{phone},#{job},#{salary},#{image},#{entryDate},#{deptId},#{createTime},#{updateTime});
+
+    </insert>
+
+    <!-- 根据id动态更新员工基本信息 -->
+    <update id="updateById">
+        update emp
+        <set>
+            <if test="username != null and username != ''">username = #{username},</if>
+            <if test="password != null and username != ''">password = #{password},</if>
+            <if test="name != null and username != ''">name = #{name},</if>
+            <if test="gender != null">gender = #{gender},</if>
+            <if test="phone != null and username != ''">phone = #{phone},</if>
+            <if test="job != null">job = #{job},</if>
+            <if test="salary != null">salary = #{salary},</if>
+            <if test="image != null and username != ''">image = #{image},</if>
+            <if test="entryDate != null">entry_date = #{entryDate},</if>
+            <if test="deptId != null">dept_id = #{deptId},</if>
+            <if test="updateTime != null">update_time = #{updateTime},</if>
+        </set>
+        where id = #{id}
+    </update>
+
+    <!--    批量删除员工基本信息-->
+    <delete id="deleteByIds">
+        delete from emp where id in
+        <foreach collection="ids" item="id" separator="," open="(" close=")">
+            #{id}
+        </foreach>
+    </delete>
+
+    <!--    查询员工信息-->
+    <select id="list" resultType="com.banxia.pojo.Emp">
+        select e.*,d.name deptName from emp e left join dept d on e.dept_id = d.id
+        <where>
+            <if test="name != null and name != '' ">
+                e.name like concat('%',#{name},'%')
+            </if>
+            <if test="gender != null">
+                and e.gender = #{gender}
+            </if>
+            <if test="begin != null and end != null">
+                and e.entry_date between #{begin} and #{end}
+            </if>
+        </where>
+        order by e.update_time desc
+    </select>
+<!--    根据id查询员工-->
+    <select id="getById" resultMap="empResultMap">
+        select
+            e.*,
+            ee.id ee_id,
+            ee.emp_id ee_emp_id,
+            ee.begin ee_begin,
+            ee.end ee_end,
+            ee.company ee_company,
+            ee.job ee_job
+        from emp e left join emp_expr ee
+                             on e.id = ee.emp_id
+        where e.id = #{id};
+    </select>
+
+<!--    查询员工职位分布-->
+    <select id="countEmpJobData" resultType="java.util.Map">
+        select case emp.job
+                   when 1 then '班主任'
+                   when 2 then '讲师'
+                   when 3 then '学工主管'
+                   when 4 then '教研主管'
+                   when 5 then '咨询师'
+                   else '其他'end pos,
+               count(*) num
+        from emp
+        group by emp.job
+        order by num;
+    </select>
+
+<!--    查询员工性别分布-->
+    <select id="countEmpGenderData" resultType="java.util.Map">
+        select if(emp.gender = 1,'男性员工','女性员工') name,
+               count(*) value
+        from emp
+        group by gender;
+    </select>
+
+<!--    查找所有员工-->
+    <select id="findAll" resultType="com.banxia.pojo.Emp">
+        select * from emp where job = 1
+    </select>
+
+<!--    根据用户名和密码查询-->
+    <select id="selsectByUsernameAndPassword" resultType="com.banxia.pojo.Emp">
+        select id,username,name from emp where username = #{username} and password = #{password}
+    </select>
+
+
+    <!--    员工信息字段分配-->
+    <resultMap id="empResultMap" type="com.banxia.pojo.Emp">
+        <id column="id" property="id" />
+        <result column="username" property="username" />
+        <result column="password" property="password"/>
+        <result column="name" property="name" />
+        <result column="gender" property="gender"/>
+        <result column="phone" property="phone"/>
+        <result column="job" property="job"/>
+        <result column="salary" property="salary"/>
+        <result column="image" property="image"/>
+        <result column="entry_date" property="entryDate"/>
+        <result column="dept_id" property="deptId"/>
+        <result column="create_time" property="createTime"/>
+        <result column="update_time" property="updateTime"/>
+        <result column="dept_name" property="deptName"/>
+
+        <collection property="exprList" ofType="com.banxia.pojo.EmpExpr">
+            <result column="ee_id" property="id"/>
+            <result column="ee_emp_id" property="empId"/>
+            <result column="ee_begin" property="begin"/>
+            <result column="ee_end" property="end"/>
+            <result column="ee_company" property="company"/>
+            <result column="ee_job" property="job"/>
+        </collection>
+    </resultMap>
+
+
+</mapper>
