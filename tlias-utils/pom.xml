@@ -4,7 +4,14 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.banxia</groupId>
+    <!--    父工程-->
+    <parent>
+        <groupId>com.banxia</groupId>
+        <artifactId>talis-parent</artifactId>
+        <version>1.0-SNAPSHOT</version>
+        <relativePath>../talis-parent/pom.xml</relativePath>
+    </parent>
+
     <artifactId>tlias-utils</artifactId>
     <version>1.0-SNAPSHOT</version>
 
@@ -40,22 +47,11 @@
         </dependency>
 
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter</artifactId>
-            <version>3.5.0</version>
-        </dependency>
-
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <version>1.18.38</version>
-        </dependency>
-
-        <dependency>
             <groupId>io.jsonwebtoken</groupId>
             <artifactId>jjwt</artifactId>
             <version>0.9.1</version>
         </dependency>
+
     </dependencies>
 
 </project>

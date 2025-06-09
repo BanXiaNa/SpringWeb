@@ -9,3 +9,130 @@
 2025-06-09 00:33:16.560 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
 2025-06-09 00:33:16.584 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
 2025-06-09 00:33:16.592 [main] INFO  com.banxia.TliasWebManagementApplication-Started TliasWebManagementApplication in 2.247 seconds (process running for 2.997)
+2025-06-09 18:58:45.492 [main] INFO  com.banxia.TliasWebManagementApplication-Starting TliasWebManagementApplication using Java 18.0.2.1 with PID 12248 (C:\Users\19432\OneDrive\Developer\springWeb\tlias-web-management\target\classes started by _ban_xia_ in C:\Users\19432\OneDrive\Developer\springWeb)
+2025-06-09 18:58:45.493 [main] INFO  com.banxia.TliasWebManagementApplication-No active profile set, falling back to 1 default profile: "default"
+2025-06-09 18:58:46.346 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-06-09 18:58:46.356 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-06-09 18:58:46.357 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-06-09 18:58:46.357 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-06-09 18:58:46.392 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-06-09 18:58:46.392 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 872 ms
+2025-06-09 18:58:46.963 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-06-09 18:58:46.976 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-06-09 18:58:46.982 [main] INFO  com.banxia.TliasWebManagementApplication-Started TliasWebManagementApplication in 1.779 seconds (process running for 2.544)
+2025-06-09 19:01:10.048 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-09 19:01:10.048 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-06-09 19:01:10.048 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 0 ms
+2025-06-09 19:01:10.061 [http-nio-8080-exec-1] INFO  com.banxia.interceptor.TokenInterceptor-拦截到了请求...
+2025-06-09 19:01:10.104 [http-nio-8080-exec-1] INFO  com.banxia.interceptor.TokenInterceptor-令牌校验失败
+2025-06-09 19:01:20.175 [http-nio-8080-exec-4] INFO  com.banxia.controller.LoginController-用户登录：Emp(id=null, username=songjiang, password=123456, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2025-06-09 19:01:20.190 [http-nio-8080-exec-4] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-06-09 19:01:20.457 [http-nio-8080-exec-4] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@13931f1e
+2025-06-09 19:01:20.458 [http-nio-8080-exec-4] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-06-09 19:01:20.529 [http-nio-8080-exec-4] INFO  com.banxia.service.impl.EmpServiceImpl-用户登录：Emp(id=2, username=songjiang, password=null, name=宋江, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2025-06-09 19:01:22.321 [http-nio-8080-exec-3] INFO  com.banxia.interceptor.TokenInterceptor-拦截到了请求...
+2025-06-09 19:01:22.321 [http-nio-8080-exec-5] INFO  com.banxia.interceptor.TokenInterceptor-拦截到了请求...
+2025-06-09 19:01:22.322 [http-nio-8080-exec-3] INFO  com.banxia.interceptor.TokenInterceptor-当前用户ID为：2，存入ThreadLocal
+2025-06-09 19:01:22.322 [http-nio-8080-exec-5] INFO  com.banxia.interceptor.TokenInterceptor-当前用户ID为：2，存入ThreadLocal
+2025-06-09 19:01:22.322 [http-nio-8080-exec-3] INFO  com.banxia.interceptor.TokenInterceptor-令牌校验通过
+2025-06-09 19:01:22.322 [http-nio-8080-exec-5] INFO  com.banxia.interceptor.TokenInterceptor-令牌校验通过
+2025-06-09 19:01:22.324 [http-nio-8080-exec-5] INFO  com.banxia.controller.EmpController-查询所有员工信息。
+2025-06-09 19:01:22.329 [http-nio-8080-exec-3] INFO  com.banxia.controller.ClazzsController-分页查询班级：ClazzsQueryParam(name=, begin=null, end=null, page=1, pageSize=10)
+2025-06-09 19:01:22.338 [http-nio-8080-exec-5] INFO  com.banxia.interceptor.TokenInterceptor-postHandle....
+2025-06-09 19:01:22.414 [http-nio-8080-exec-3] INFO  com.banxia.interceptor.TokenInterceptor-postHandle....
+2025-06-09 19:01:22.896 [http-nio-8080-exec-6] INFO  com.banxia.interceptor.TokenInterceptor-拦截到了请求...
+2025-06-09 19:01:22.896 [http-nio-8080-exec-2] INFO  com.banxia.interceptor.TokenInterceptor-拦截到了请求...
+2025-06-09 19:01:22.896 [http-nio-8080-exec-2] INFO  com.banxia.interceptor.TokenInterceptor-当前用户ID为：2，存入ThreadLocal
+2025-06-09 19:01:22.896 [http-nio-8080-exec-6] INFO  com.banxia.interceptor.TokenInterceptor-当前用户ID为：2，存入ThreadLocal
+2025-06-09 19:01:22.896 [http-nio-8080-exec-2] INFO  com.banxia.interceptor.TokenInterceptor-令牌校验通过
+2025-06-09 19:01:22.896 [http-nio-8080-exec-6] INFO  com.banxia.interceptor.TokenInterceptor-令牌校验通过
+2025-06-09 19:01:22.898 [http-nio-8080-exec-6] INFO  com.banxia.controller.ClazzsController-查找了所有班级
+2025-06-09 19:01:22.898 [http-nio-8080-exec-2] INFO  com.banxia.controller.StudentsController-查询学生信息：StudentQueryParam(name=, degree=null, clazzId=null, page=1, pageSize=10)
+2025-06-09 19:01:22.902 [http-nio-8080-exec-6] INFO  com.banxia.interceptor.TokenInterceptor-postHandle....
+2025-06-09 19:01:22.920 [http-nio-8080-exec-2] INFO  com.banxia.interceptor.TokenInterceptor-postHandle....
+2025-06-09 19:01:23.920 [http-nio-8080-exec-7] INFO  com.banxia.interceptor.TokenInterceptor-拦截到了请求...
+2025-06-09 19:01:23.921 [http-nio-8080-exec-7] INFO  com.banxia.interceptor.TokenInterceptor-当前用户ID为：2，存入ThreadLocal
+2025-06-09 19:01:23.921 [http-nio-8080-exec-7] INFO  com.banxia.interceptor.TokenInterceptor-令牌校验通过
+2025-06-09 19:01:23.922 [http-nio-8080-exec-7] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-09 19:01:23.938 [http-nio-8080-exec-7] INFO  com.banxia.interceptor.TokenInterceptor-postHandle....
+2025-06-09 19:01:24.495 [http-nio-8080-exec-9] INFO  com.banxia.interceptor.TokenInterceptor-拦截到了请求...
+2025-06-09 19:01:24.495 [http-nio-8080-exec-8] INFO  com.banxia.interceptor.TokenInterceptor-拦截到了请求...
+2025-06-09 19:01:24.496 [http-nio-8080-exec-8] INFO  com.banxia.interceptor.TokenInterceptor-当前用户ID为：2，存入ThreadLocal
+2025-06-09 19:01:24.496 [http-nio-8080-exec-9] INFO  com.banxia.interceptor.TokenInterceptor-当前用户ID为：2，存入ThreadLocal
+2025-06-09 19:01:24.496 [http-nio-8080-exec-8] INFO  com.banxia.interceptor.TokenInterceptor-令牌校验通过
+2025-06-09 19:01:24.496 [http-nio-8080-exec-9] INFO  com.banxia.interceptor.TokenInterceptor-令牌校验通过
+2025-06-09 19:01:24.496 [http-nio-8080-exec-9] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-09 19:01:24.497 [http-nio-8080-exec-8] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-06-09 19:01:24.500 [http-nio-8080-exec-9] INFO  com.banxia.interceptor.TokenInterceptor-postHandle....
+2025-06-09 19:01:24.505 [http-nio-8080-exec-8] INFO  com.banxia.interceptor.TokenInterceptor-postHandle....
+2025-06-09 19:01:25.409 [http-nio-8080-exec-10] INFO  com.banxia.interceptor.TokenInterceptor-拦截到了请求...
+2025-06-09 19:01:25.409 [http-nio-8080-exec-10] INFO  com.banxia.interceptor.TokenInterceptor-当前用户ID为：2，存入ThreadLocal
+2025-06-09 19:01:25.409 [http-nio-8080-exec-10] INFO  com.banxia.interceptor.TokenInterceptor-令牌校验通过
+2025-06-09 19:01:25.410 [http-nio-8080-exec-10] INFO  com.banxia.controller.ReportController-统计员工职位人数。
+2025-06-09 19:01:25.410 [http-nio-8080-exec-1] INFO  com.banxia.interceptor.TokenInterceptor-拦截到了请求...
+2025-06-09 19:01:25.410 [http-nio-8080-exec-1] INFO  com.banxia.interceptor.TokenInterceptor-当前用户ID为：2，存入ThreadLocal
+2025-06-09 19:01:25.410 [http-nio-8080-exec-1] INFO  com.banxia.interceptor.TokenInterceptor-令牌校验通过
+2025-06-09 19:01:25.411 [http-nio-8080-exec-1] INFO  com.banxia.controller.ReportController-统计员工性别信息
+2025-06-09 19:01:25.416 [http-nio-8080-exec-1] INFO  com.banxia.interceptor.TokenInterceptor-postHandle....
+2025-06-09 19:01:25.418 [http-nio-8080-exec-10] INFO  com.banxia.interceptor.TokenInterceptor-postHandle....
+2025-06-09 19:01:25.919 [http-nio-8080-exec-4] INFO  com.banxia.interceptor.TokenInterceptor-拦截到了请求...
+2025-06-09 19:01:25.920 [http-nio-8080-exec-5] INFO  com.banxia.interceptor.TokenInterceptor-拦截到了请求...
+2025-06-09 19:01:25.920 [http-nio-8080-exec-4] INFO  com.banxia.interceptor.TokenInterceptor-当前用户ID为：2，存入ThreadLocal
+2025-06-09 19:01:25.920 [http-nio-8080-exec-4] INFO  com.banxia.interceptor.TokenInterceptor-令牌校验通过
+2025-06-09 19:01:25.920 [http-nio-8080-exec-4] INFO  com.banxia.controller.ReportController-统计了班级信息。
+2025-06-09 19:01:25.920 [http-nio-8080-exec-5] INFO  com.banxia.interceptor.TokenInterceptor-当前用户ID为：2，存入ThreadLocal
+2025-06-09 19:01:25.920 [http-nio-8080-exec-5] INFO  com.banxia.interceptor.TokenInterceptor-令牌校验通过
+2025-06-09 19:01:25.920 [http-nio-8080-exec-5] INFO  com.banxia.controller.ReportController-查询学生的性别信息。
+2025-06-09 19:01:25.923 [http-nio-8080-exec-5] INFO  com.banxia.interceptor.TokenInterceptor-postHandle....
+2025-06-09 19:01:25.924 [http-nio-8080-exec-4] INFO  com.banxia.interceptor.TokenInterceptor-postHandle....
+2025-06-09 19:01:26.722 [http-nio-8080-exec-3] INFO  com.banxia.interceptor.TokenInterceptor-拦截到了请求...
+2025-06-09 19:01:26.723 [http-nio-8080-exec-3] INFO  com.banxia.interceptor.TokenInterceptor-当前用户ID为：2，存入ThreadLocal
+2025-06-09 19:01:26.723 [http-nio-8080-exec-3] INFO  com.banxia.interceptor.TokenInterceptor-令牌校验通过
+2025-06-09 19:01:26.725 [http-nio-8080-exec-3] ERROR com.banxia.exception.GlobalExceptionHandler-程序出错了：
+org.springframework.web.servlet.resource.NoResourceFoundException: No static resource log/page.
+	at org.springframework.web.servlet.resource.ResourceHttpRequestHandler.handleRequest(ResourceHttpRequestHandler.java:585)
+	at org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter.handle(HttpRequestHandlerAdapter.java:52)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2025-06-09 19:10:14.454 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-09 19:10:14.545 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-06-09 19:10:14.548 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-06-09 19:10:14.553 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
