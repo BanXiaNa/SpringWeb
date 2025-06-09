@@ -3,6 +3,7 @@ package com.banxia.pojo;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.springframework.format.annotation.DateTimeFormat;
 
 import java.time.LocalDateTime;
 
@@ -12,6 +13,7 @@ import java.time.LocalDateTime;
 public class OperateLog {
     private Integer id; //ID
     private Integer operateEmpId; //操作人ID
+    @DateTimeFormat(pattern = "yyyy-mm-dd HH:mm:ss")
     private LocalDateTime operateTime; //操作时间
     private String className; //操作类名
     private String methodName; //操作方法名

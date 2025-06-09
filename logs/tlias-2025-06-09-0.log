@@ -136,3 +136,663 @@ org.springframework.web.servlet.resource.NoResourceFoundException: No static res
 2025-06-09 19:10:14.545 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
 2025-06-09 19:10:14.548 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
 2025-06-09 19:10:14.553 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2025-06-09 19:35:38.164 [main] INFO  com.banxia.TliasWebManagementApplication-Starting TliasWebManagementApplication using Java 18.0.2.1 with PID 2064 (C:\Users\19432\OneDrive\Developer\springWeb\tlias-web-management\target\classes started by _ban_xia_ in C:\Users\19432\OneDrive\Developer\springWeb)
+2025-06-09 19:35:38.165 [main] INFO  com.banxia.TliasWebManagementApplication-No active profile set, falling back to 1 default profile: "default"
+2025-06-09 19:35:39.216 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-06-09 19:35:39.225 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-06-09 19:35:39.226 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-06-09 19:35:39.226 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-06-09 19:35:39.265 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-06-09 19:35:39.265 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1071 ms
+2025-06-09 19:35:39.863 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-06-09 19:35:39.876 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-06-09 19:35:39.882 [main] INFO  com.banxia.TliasWebManagementApplication-Started TliasWebManagementApplication in 2.03 seconds (process running for 8.41)
+2025-06-09 19:35:44.387 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-09 19:35:44.387 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-06-09 19:35:44.388 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2025-06-09 19:35:44.401 [http-nio-8080-exec-2] INFO  com.banxia.interceptor.TokenInterceptor-拦截到了请求...
+2025-06-09 19:35:44.401 [http-nio-8080-exec-1] INFO  com.banxia.interceptor.TokenInterceptor-拦截到了请求...
+2025-06-09 19:35:44.438 [http-nio-8080-exec-2] INFO  com.banxia.interceptor.TokenInterceptor-当前用户ID为：2，存入ThreadLocal
+2025-06-09 19:35:44.438 [http-nio-8080-exec-1] INFO  com.banxia.interceptor.TokenInterceptor-当前用户ID为：2，存入ThreadLocal
+2025-06-09 19:35:44.439 [http-nio-8080-exec-2] INFO  com.banxia.interceptor.TokenInterceptor-令牌校验通过
+2025-06-09 19:35:44.439 [http-nio-8080-exec-1] INFO  com.banxia.interceptor.TokenInterceptor-令牌校验通过
+2025-06-09 19:35:44.446 [http-nio-8080-exec-1] INFO  com.banxia.controller.ReportController-查询学生的性别信息。
+2025-06-09 19:35:44.446 [http-nio-8080-exec-2] INFO  com.banxia.controller.ReportController-统计了班级信息。
+2025-06-09 19:35:44.463 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-06-09 19:35:44.624 [http-nio-8080-exec-3] INFO  com.banxia.interceptor.TokenInterceptor-拦截到了请求...
+2025-06-09 19:35:44.624 [http-nio-8080-exec-3] INFO  com.banxia.interceptor.TokenInterceptor-当前用户ID为：2，存入ThreadLocal
+2025-06-09 19:35:44.624 [http-nio-8080-exec-3] INFO  com.banxia.interceptor.TokenInterceptor-令牌校验通过
+2025-06-09 19:35:44.624 [http-nio-8080-exec-3] INFO  com.banxia.controller.ReportController-统计员工职位人数。
+2025-06-09 19:35:44.724 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@43a9b452
+2025-06-09 19:35:44.725 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-06-09 19:35:44.936 [http-nio-8080-exec-2] INFO  com.banxia.interceptor.TokenInterceptor-postHandle....
+2025-06-09 19:35:44.936 [http-nio-8080-exec-3] INFO  com.banxia.interceptor.TokenInterceptor-postHandle....
+2025-06-09 19:35:44.939 [http-nio-8080-exec-5] INFO  com.banxia.interceptor.TokenInterceptor-拦截到了请求...
+2025-06-09 19:35:44.939 [http-nio-8080-exec-1] INFO  com.banxia.interceptor.TokenInterceptor-postHandle....
+2025-06-09 19:35:44.940 [http-nio-8080-exec-5] INFO  com.banxia.interceptor.TokenInterceptor-当前用户ID为：2，存入ThreadLocal
+2025-06-09 19:35:44.940 [http-nio-8080-exec-5] INFO  com.banxia.interceptor.TokenInterceptor-令牌校验通过
+2025-06-09 19:35:44.941 [http-nio-8080-exec-5] INFO  com.banxia.controller.ReportController-统计员工性别信息
+2025-06-09 19:35:44.944 [http-nio-8080-exec-5] INFO  com.banxia.interceptor.TokenInterceptor-postHandle....
+2025-06-09 19:35:45.846 [http-nio-8080-exec-6] INFO  com.banxia.interceptor.TokenInterceptor-拦截到了请求...
+2025-06-09 19:35:45.846 [http-nio-8080-exec-4] INFO  com.banxia.interceptor.TokenInterceptor-拦截到了请求...
+2025-06-09 19:35:45.847 [http-nio-8080-exec-6] INFO  com.banxia.interceptor.TokenInterceptor-当前用户ID为：2，存入ThreadLocal
+2025-06-09 19:35:45.847 [http-nio-8080-exec-4] INFO  com.banxia.interceptor.TokenInterceptor-当前用户ID为：2，存入ThreadLocal
+2025-06-09 19:35:45.848 [http-nio-8080-exec-6] INFO  com.banxia.interceptor.TokenInterceptor-令牌校验通过
+2025-06-09 19:35:45.848 [http-nio-8080-exec-4] INFO  com.banxia.interceptor.TokenInterceptor-令牌校验通过
+2025-06-09 19:35:45.848 [http-nio-8080-exec-4] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-09 19:35:45.870 [http-nio-8080-exec-4] INFO  com.banxia.interceptor.TokenInterceptor-postHandle....
+2025-06-09 19:35:45.876 [http-nio-8080-exec-6] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-06-09 19:35:46.063 [http-nio-8080-exec-6] INFO  com.banxia.interceptor.TokenInterceptor-postHandle....
+2025-06-09 19:36:42.126 [http-nio-8080-exec-7] INFO  com.banxia.interceptor.TokenInterceptor-拦截到了请求...
+2025-06-09 19:36:42.130 [http-nio-8080-exec-7] INFO  com.banxia.interceptor.TokenInterceptor-当前用户ID为：2，存入ThreadLocal
+2025-06-09 19:36:42.130 [http-nio-8080-exec-7] INFO  com.banxia.interceptor.TokenInterceptor-令牌校验通过
+2025-06-09 19:36:42.131 [http-nio-8080-exec-7] INFO  com.banxia.controller.UploadController-文件上传：不免冠证件照.jpg
+2025-06-09 19:36:53.905 [http-nio-8080-exec-7] INFO  com.banxia.controller.UploadController-文件上传OSS，URL：https://banxia-java.oss-cn-beijing.aliyuncs.com/2025/06/1113b1d0-90d6-4435-984d-580613052b4d.jpg
+2025-06-09 19:36:53.905 [http-nio-8080-exec-7] INFO  com.banxia.interceptor.TokenInterceptor-postHandle....
+2025-06-09 19:37:06.217 [http-nio-8080-exec-8] INFO  com.banxia.interceptor.TokenInterceptor-拦截到了请求...
+2025-06-09 19:37:06.218 [http-nio-8080-exec-8] INFO  com.banxia.interceptor.TokenInterceptor-当前用户ID为：2，存入ThreadLocal
+2025-06-09 19:37:06.218 [http-nio-8080-exec-8] INFO  com.banxia.interceptor.TokenInterceptor-令牌校验通过
+2025-06-09 19:37:06.278 [http-nio-8080-exec-8] INFO  com.banxia.controller.EmpController-新增员工：Emp(id=null, username=banxia, password=null, name=半夏, gender=1, phone=19863551815, job=6, salary=10000, image=https://banxia-java.oss-cn-beijing.aliyuncs.com/2025/06/1113b1d0-90d6-4435-984d-580613052b4d.jpg, entryDate=2025-06-19, deptId=5, createTime=null, updateTime=null, deptName=null, exprList=[EmpExpr(id=null, empId=null, begin=2025-06-20, end=2025-07-24, company=半夏公司, job=不知道)])
+2025-06-09 19:37:06.284 [http-nio-8080-exec-8] DEBUG o.s.jdbc.support.JdbcTransactionManager-Creating new transaction with name [com.banxia.service.impl.EmpServiceImpl.save]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,-java.lang.Exception
+2025-06-09 19:37:06.286 [http-nio-8080-exec-8] DEBUG o.s.jdbc.support.JdbcTransactionManager-Acquired Connection [HikariProxyConnection@1591562678 wrapping com.mysql.cj.jdbc.ConnectionImpl@43a9b452] for JDBC transaction
+2025-06-09 19:37:06.290 [http-nio-8080-exec-8] DEBUG o.s.jdbc.support.JdbcTransactionManager-Switching JDBC Connection [HikariProxyConnection@1591562678 wrapping com.mysql.cj.jdbc.ConnectionImpl@43a9b452] to manual commit
+2025-06-09 19:37:06.352 [http-nio-8080-exec-8] DEBUG o.s.jdbc.support.JdbcTransactionManager-Suspending current transaction, creating new transaction with name [com.banxia.service.impl.EmpLogServiceImpl.insertLog]
+2025-06-09 19:37:06.355 [http-nio-8080-exec-8] DEBUG o.s.jdbc.support.JdbcTransactionManager-Acquired Connection [HikariProxyConnection@1761345173 wrapping com.mysql.cj.jdbc.ConnectionImpl@36fd5561] for JDBC transaction
+2025-06-09 19:37:06.355 [http-nio-8080-exec-8] DEBUG o.s.jdbc.support.JdbcTransactionManager-Switching JDBC Connection [HikariProxyConnection@1761345173 wrapping com.mysql.cj.jdbc.ConnectionImpl@36fd5561] to manual commit
+2025-06-09 19:37:06.363 [http-nio-8080-exec-8] INFO  com.banxia.aop.LogAspect-记录日志：OperateLog(id=null, operateEmpId=2, operateTime=2025-06-09T19:37:06.360636, className=com.banxia.service.impl.EmpLogServiceImpl, methodName=insertLog, methodParams=[{"id":null,"operateTime":"2025-06-09T19:37:06.3525794","info":"新增员工Emp(id=37, username=banxia, password=null, name=半夏, gender=1, phone=19863551815, job=6, salary=10000, image=https://banxia-java.oss-cn-beijing.aliyuncs.com/2025/06/1113b1d0-90d6-4435-984d-580613052b4d.jpg, entryDate=2025-06-19, deptId=5, createTime=2025-06-09T19:37:06.318241100, updateTime=2025-06-09T19:37:06.318241100, deptName=null, exprList=[EmpExpr(id=null, empId=37, begin=2025-06-20, end=2025-07-24, company=半夏公司, job=不知道)])"}], returnValue=null, costTime=4)
+2025-06-09 19:37:06.380 [http-nio-8080-exec-8] DEBUG o.s.jdbc.support.JdbcTransactionManager-Initiating transaction commit
+2025-06-09 19:37:06.380 [http-nio-8080-exec-8] DEBUG o.s.jdbc.support.JdbcTransactionManager-Committing JDBC transaction on Connection [HikariProxyConnection@1761345173 wrapping com.mysql.cj.jdbc.ConnectionImpl@36fd5561]
+2025-06-09 19:37:06.386 [http-nio-8080-exec-8] DEBUG o.s.jdbc.support.JdbcTransactionManager-Releasing JDBC Connection [HikariProxyConnection@1761345173 wrapping com.mysql.cj.jdbc.ConnectionImpl@36fd5561] after transaction
+2025-06-09 19:37:06.386 [http-nio-8080-exec-8] DEBUG o.s.jdbc.support.JdbcTransactionManager-Resuming suspended transaction after completion of inner transaction
+2025-06-09 19:37:06.386 [http-nio-8080-exec-8] INFO  com.banxia.aop.LogAspect-记录日志：OperateLog(id=null, operateEmpId=2, operateTime=2025-06-09T19:37:06.386261900, className=com.banxia.service.impl.EmpServiceImpl, methodName=save, methodParams=[{"id":null,"username":"banxia","password":null,"name":"半夏","gender":1,"phone":"19863551815","job":6,"salary":10000,"image":"https://banxia-java.oss-cn-beijing.aliyuncs.com/2025/06/1113b1d0-90d6-4435-984d-580613052b4d.jpg","entryDate":"2025-06-19","deptId":5,"createTime":null,"updateTime":null,"deptName":null,"exprList":[{"id":null,"empId":null,"begin":"2025-06-20","end":"2025-07-24","company":"半夏公司","job":"不知道"}]}], returnValue=null, costTime=85)
+2025-06-09 19:37:06.391 [http-nio-8080-exec-8] DEBUG o.s.jdbc.support.JdbcTransactionManager-Initiating transaction commit
+2025-06-09 19:37:06.391 [http-nio-8080-exec-8] DEBUG o.s.jdbc.support.JdbcTransactionManager-Committing JDBC transaction on Connection [HikariProxyConnection@1591562678 wrapping com.mysql.cj.jdbc.ConnectionImpl@43a9b452]
+2025-06-09 19:37:06.394 [http-nio-8080-exec-8] DEBUG o.s.jdbc.support.JdbcTransactionManager-Releasing JDBC Connection [HikariProxyConnection@1591562678 wrapping com.mysql.cj.jdbc.ConnectionImpl@43a9b452] after transaction
+2025-06-09 19:37:06.395 [http-nio-8080-exec-8] INFO  com.banxia.interceptor.TokenInterceptor-postHandle....
+2025-06-09 19:37:06.422 [http-nio-8080-exec-9] INFO  com.banxia.interceptor.TokenInterceptor-拦截到了请求...
+2025-06-09 19:37:06.423 [http-nio-8080-exec-9] INFO  com.banxia.interceptor.TokenInterceptor-当前用户ID为：2，存入ThreadLocal
+2025-06-09 19:37:06.423 [http-nio-8080-exec-9] INFO  com.banxia.interceptor.TokenInterceptor-令牌校验通过
+2025-06-09 19:37:06.427 [http-nio-8080-exec-9] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-06-09 19:37:06.447 [http-nio-8080-exec-9] INFO  com.banxia.interceptor.TokenInterceptor-postHandle....
+2025-06-09 19:40:04.415 [http-nio-8080-exec-10] INFO  com.banxia.interceptor.TokenInterceptor-拦截到了请求...
+2025-06-09 19:40:04.417 [http-nio-8080-exec-10] INFO  com.banxia.interceptor.TokenInterceptor-当前用户ID为：2，存入ThreadLocal
+2025-06-09 19:40:04.417 [http-nio-8080-exec-10] INFO  com.banxia.interceptor.TokenInterceptor-令牌校验通过
+2025-06-09 19:40:04.424 [http-nio-8080-exec-10] ERROR com.banxia.exception.GlobalExceptionHandler-程序出错了：
+org.springframework.web.servlet.resource.NoResourceFoundException: No static resource log/page.
+	at org.springframework.web.servlet.resource.ResourceHttpRequestHandler.handleRequest(ResourceHttpRequestHandler.java:585)
+	at org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter.handle(HttpRequestHandlerAdapter.java:52)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2025-06-09 19:43:31.268 [http-nio-8080-exec-2] INFO  com.banxia.interceptor.TokenInterceptor-拦截到了请求...
+2025-06-09 19:43:31.268 [http-nio-8080-exec-3] INFO  com.banxia.interceptor.TokenInterceptor-拦截到了请求...
+2025-06-09 19:43:31.268 [http-nio-8080-exec-2] INFO  com.banxia.interceptor.TokenInterceptor-当前用户ID为：2，存入ThreadLocal
+2025-06-09 19:43:31.268 [http-nio-8080-exec-2] INFO  com.banxia.interceptor.TokenInterceptor-令牌校验通过
+2025-06-09 19:43:31.268 [http-nio-8080-exec-3] INFO  com.banxia.interceptor.TokenInterceptor-当前用户ID为：2，存入ThreadLocal
+2025-06-09 19:43:31.268 [http-nio-8080-exec-3] INFO  com.banxia.interceptor.TokenInterceptor-令牌校验通过
+2025-06-09 19:43:31.269 [http-nio-8080-exec-3] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-09 19:43:31.269 [http-nio-8080-exec-2] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-06-09 19:43:31.273 [http-nio-8080-exec-3] INFO  com.banxia.interceptor.TokenInterceptor-postHandle....
+2025-06-09 19:43:31.276 [http-nio-8080-exec-2] INFO  com.banxia.interceptor.TokenInterceptor-postHandle....
+2025-06-09 19:43:35.103 [http-nio-8080-exec-1] INFO  com.banxia.interceptor.TokenInterceptor-拦截到了请求...
+2025-06-09 19:43:35.104 [http-nio-8080-exec-1] INFO  com.banxia.interceptor.TokenInterceptor-当前用户ID为：2，存入ThreadLocal
+2025-06-09 19:43:35.104 [http-nio-8080-exec-1] INFO  com.banxia.interceptor.TokenInterceptor-令牌校验通过
+2025-06-09 19:43:35.105 [http-nio-8080-exec-1] INFO  com.banxia.controller.EmpController-根据id查询信息：37
+2025-06-09 19:43:35.109 [http-nio-8080-exec-1] INFO  com.banxia.interceptor.TokenInterceptor-postHandle....
+2025-06-09 20:15:25.407 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-09 20:15:25.501 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-06-09 20:15:25.505 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-06-09 20:15:25.508 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2025-06-09 20:15:29.533 [main] INFO  com.banxia.TliasWebManagementApplication-Starting TliasWebManagementApplication using Java 18.0.2.1 with PID 29012 (C:\Users\19432\OneDrive\Developer\springWeb\tlias-web-management\target\classes started by _ban_xia_ in C:\Users\19432\OneDrive\Developer\springWeb)
+2025-06-09 20:15:29.534 [main] INFO  com.banxia.TliasWebManagementApplication-No active profile set, falling back to 1 default profile: "default"
+2025-06-09 20:15:30.336 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-06-09 20:15:30.347 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-06-09 20:15:30.348 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-06-09 20:15:30.348 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-06-09 20:15:30.390 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-06-09 20:15:30.390 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 824 ms
+2025-06-09 20:15:30.898 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-06-09 20:15:30.913 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-06-09 20:15:30.919 [main] INFO  com.banxia.TliasWebManagementApplication-Started TliasWebManagementApplication in 1.657 seconds (process running for 2.205)
+2025-06-09 20:15:37.641 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-09 20:15:37.641 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-06-09 20:15:37.641 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 0 ms
+2025-06-09 20:15:37.652 [http-nio-8080-exec-1] INFO  com.banxia.interceptor.TokenInterceptor-拦截到了请求...
+2025-06-09 20:15:37.686 [http-nio-8080-exec-1] INFO  com.banxia.interceptor.TokenInterceptor-令牌校验失败
+2025-06-09 20:15:47.863 [http-nio-8080-exec-2] INFO  com.banxia.controller.LoginController-用户登录：Emp(id=null, username=songjiang, password=123456, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2025-06-09 20:15:47.876 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-06-09 20:15:48.104 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@396f4d67
+2025-06-09 20:15:48.106 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-06-09 20:15:48.139 [http-nio-8080-exec-2] INFO  com.banxia.service.impl.EmpServiceImpl-用户登录：Emp(id=2, username=songjiang, password=null, name=宋江, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2025-06-09 20:15:51.711 [http-nio-8080-exec-3] INFO  com.banxia.interceptor.TokenInterceptor-拦截到了请求...
+2025-06-09 20:15:51.713 [http-nio-8080-exec-5] INFO  com.banxia.interceptor.TokenInterceptor-拦截到了请求...
+2025-06-09 20:15:51.714 [http-nio-8080-exec-3] INFO  com.banxia.interceptor.TokenInterceptor-当前用户ID为：2，存入ThreadLocal
+2025-06-09 20:15:51.714 [http-nio-8080-exec-3] INFO  com.banxia.interceptor.TokenInterceptor-令牌校验通过
+2025-06-09 20:15:51.714 [http-nio-8080-exec-5] INFO  com.banxia.interceptor.TokenInterceptor-当前用户ID为：2，存入ThreadLocal
+2025-06-09 20:15:51.714 [http-nio-8080-exec-5] INFO  com.banxia.interceptor.TokenInterceptor-令牌校验通过
+2025-06-09 20:15:51.714 [http-nio-8080-exec-3] INFO  com.banxia.controller.ReportController-统计了班级信息。
+2025-06-09 20:15:51.714 [http-nio-8080-exec-5] INFO  com.banxia.controller.ReportController-查询学生的性别信息。
+2025-06-09 20:15:51.723 [http-nio-8080-exec-5] INFO  com.banxia.interceptor.TokenInterceptor-postHandle....
+2025-06-09 20:15:51.724 [http-nio-8080-exec-3] INFO  com.banxia.interceptor.TokenInterceptor-postHandle....
+2025-06-09 20:15:54.109 [http-nio-8080-exec-7] INFO  com.banxia.interceptor.TokenInterceptor-拦截到了请求...
+2025-06-09 20:15:54.109 [http-nio-8080-exec-7] INFO  com.banxia.interceptor.TokenInterceptor-当前用户ID为：2，存入ThreadLocal
+2025-06-09 20:15:54.109 [http-nio-8080-exec-7] INFO  com.banxia.interceptor.TokenInterceptor-令牌校验通过
+2025-06-09 20:15:54.112 [http-nio-8080-exec-7] INFO  com.banxia.controller.OperateLogController-查询日志 page: 1, pageSize: 15
+2025-06-09 20:15:54.241 [http-nio-8080-exec-7] ERROR com.banxia.exception.GlobalExceptionHandler-程序出错了：
+org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 15' at line 2
+### The error may exist in com/banxia/mapper/OperateLogMapper.xml
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: select * from operate_log;  LIMIT ?
+### Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 15' at line 2
+; bad SQL grammar []
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:246)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:107)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:93)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:347)
+	at jdk.proxy2/jdk.proxy2.$Proxy68.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:194)
+	at org.apache.ibatis.binding.MapperMethod.executeForMany(MapperMethod.java:147)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:80)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:141)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy2/jdk.proxy2.$Proxy69.page(Unknown Source)
+	at com.banxia.service.impl.OperateLogServiceImpl.page(OperateLogServiceImpl.java:22)
+	at com.banxia.controller.OperateLogController.page(OperateLogController.java:26)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 15' at line 2
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:112)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:988)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:382)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:58)
+	at jdk.proxy3/jdk.proxy3.$Proxy97.execute(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.query(PreparedStatementHandler.java:65)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.query(RoutingStatementHandler.java:80)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:65)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:336)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:158)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:110)
+	at com.github.pagehelper.util.ExecutorUtil.pageQuery(ExecutorUtil.java:215)
+	at com.github.pagehelper.PageInterceptor.intercept(PageInterceptor.java:147)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:59)
+	at jdk.proxy2/jdk.proxy2.$Proxy95.query(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:154)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:142)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:333)
+	... 57 common frames omitted
+2025-06-09 20:17:40.973 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-09 20:17:41.066 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-06-09 20:17:41.068 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-06-09 20:17:41.071 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2025-06-09 20:17:43.559 [main] INFO  com.banxia.TliasWebManagementApplication-Starting TliasWebManagementApplication using Java 18.0.2.1 with PID 7332 (C:\Users\19432\OneDrive\Developer\springWeb\tlias-web-management\target\classes started by _ban_xia_ in C:\Users\19432\OneDrive\Developer\springWeb)
+2025-06-09 20:17:43.561 [main] INFO  com.banxia.TliasWebManagementApplication-No active profile set, falling back to 1 default profile: "default"
+2025-06-09 20:17:44.352 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-06-09 20:17:44.360 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-06-09 20:17:44.362 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-06-09 20:17:44.362 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-06-09 20:17:44.395 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-06-09 20:17:44.395 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 808 ms
+2025-06-09 20:17:44.916 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-06-09 20:17:44.930 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-06-09 20:17:44.936 [main] INFO  com.banxia.TliasWebManagementApplication-Started TliasWebManagementApplication in 1.634 seconds (process running for 2.095)
+2025-06-09 20:17:47.845 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-09 20:17:47.845 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-06-09 20:17:47.845 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 0 ms
+2025-06-09 20:17:47.857 [http-nio-8080-exec-1] INFO  com.banxia.interceptor.TokenInterceptor-拦截到了请求...
+2025-06-09 20:17:47.857 [http-nio-8080-exec-2] INFO  com.banxia.interceptor.TokenInterceptor-拦截到了请求...
+2025-06-09 20:17:47.890 [http-nio-8080-exec-2] INFO  com.banxia.interceptor.TokenInterceptor-当前用户ID为：2，存入ThreadLocal
+2025-06-09 20:17:47.890 [http-nio-8080-exec-1] INFO  com.banxia.interceptor.TokenInterceptor-当前用户ID为：2，存入ThreadLocal
+2025-06-09 20:17:47.891 [http-nio-8080-exec-2] INFO  com.banxia.interceptor.TokenInterceptor-令牌校验通过
+2025-06-09 20:17:47.891 [http-nio-8080-exec-1] INFO  com.banxia.interceptor.TokenInterceptor-令牌校验通过
+2025-06-09 20:17:47.897 [http-nio-8080-exec-2] INFO  com.banxia.controller.ReportController-查询学生的性别信息。
+2025-06-09 20:17:47.897 [http-nio-8080-exec-1] INFO  com.banxia.controller.ReportController-统计了班级信息。
+2025-06-09 20:17:47.908 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-06-09 20:17:48.069 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5005159b
+2025-06-09 20:17:48.070 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-06-09 20:17:48.136 [http-nio-8080-exec-2] INFO  com.banxia.interceptor.TokenInterceptor-postHandle....
+2025-06-09 20:17:48.136 [http-nio-8080-exec-1] INFO  com.banxia.interceptor.TokenInterceptor-postHandle....
+2025-06-09 20:17:51.735 [http-nio-8080-exec-4] INFO  com.banxia.interceptor.TokenInterceptor-拦截到了请求...
+2025-06-09 20:17:51.736 [http-nio-8080-exec-4] INFO  com.banxia.interceptor.TokenInterceptor-当前用户ID为：2，存入ThreadLocal
+2025-06-09 20:17:51.737 [http-nio-8080-exec-4] INFO  com.banxia.interceptor.TokenInterceptor-令牌校验通过
+2025-06-09 20:17:51.747 [http-nio-8080-exec-4] INFO  com.banxia.controller.OperateLogController-查询日志 page: 1, pageSize: 15
+2025-06-09 20:17:51.750 [http-nio-8080-exec-4] INFO  com.banxia.interceptor.TokenInterceptor-postHandle....
+2025-06-09 20:21:56.384 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-09 20:21:56.475 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-06-09 20:21:56.477 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-06-09 20:21:56.481 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2025-06-09 20:21:59.194 [main] INFO  com.banxia.TliasWebManagementApplication-Starting TliasWebManagementApplication using Java 18.0.2.1 with PID 33768 (C:\Users\19432\OneDrive\Developer\springWeb\tlias-web-management\target\classes started by _ban_xia_ in C:\Users\19432\OneDrive\Developer\springWeb)
+2025-06-09 20:21:59.196 [main] INFO  com.banxia.TliasWebManagementApplication-No active profile set, falling back to 1 default profile: "default"
+2025-06-09 20:22:00.036 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-06-09 20:22:00.047 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-06-09 20:22:00.049 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-06-09 20:22:00.050 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-06-09 20:22:00.088 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-06-09 20:22:00.088 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 864 ms
+2025-06-09 20:22:00.594 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-06-09 20:22:00.607 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-06-09 20:22:00.612 [main] INFO  com.banxia.TliasWebManagementApplication-Started TliasWebManagementApplication in 1.677 seconds (process running for 2.164)
+2025-06-09 20:22:04.024 [http-nio-8080-exec-3] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-09 20:22:04.024 [http-nio-8080-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-06-09 20:22:04.025 [http-nio-8080-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2025-06-09 20:22:04.036 [http-nio-8080-exec-1] INFO  com.banxia.interceptor.TokenInterceptor-拦截到了请求...
+2025-06-09 20:22:04.036 [http-nio-8080-exec-3] INFO  com.banxia.interceptor.TokenInterceptor-拦截到了请求...
+2025-06-09 20:22:04.069 [http-nio-8080-exec-1] INFO  com.banxia.interceptor.TokenInterceptor-当前用户ID为：2，存入ThreadLocal
+2025-06-09 20:22:04.069 [http-nio-8080-exec-3] INFO  com.banxia.interceptor.TokenInterceptor-当前用户ID为：2，存入ThreadLocal
+2025-06-09 20:22:04.070 [http-nio-8080-exec-1] INFO  com.banxia.interceptor.TokenInterceptor-令牌校验通过
+2025-06-09 20:22:04.070 [http-nio-8080-exec-3] INFO  com.banxia.interceptor.TokenInterceptor-令牌校验通过
+2025-06-09 20:22:04.076 [http-nio-8080-exec-3] INFO  com.banxia.controller.ReportController-统计了班级信息。
+2025-06-09 20:22:04.076 [http-nio-8080-exec-1] INFO  com.banxia.controller.ReportController-查询学生的性别信息。
+2025-06-09 20:22:04.089 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-06-09 20:22:04.251 [http-nio-8080-exec-7] INFO  com.banxia.interceptor.TokenInterceptor-拦截到了请求...
+2025-06-09 20:22:04.251 [http-nio-8080-exec-7] INFO  com.banxia.interceptor.TokenInterceptor-当前用户ID为：2，存入ThreadLocal
+2025-06-09 20:22:04.251 [http-nio-8080-exec-7] INFO  com.banxia.interceptor.TokenInterceptor-令牌校验通过
+2025-06-09 20:22:04.258 [http-nio-8080-exec-7] INFO  com.banxia.controller.OperateLogController-查询日志 page: 1, pageSize: 15
+2025-06-09 20:22:04.264 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@bea5f0
+2025-06-09 20:22:04.265 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-06-09 20:22:04.337 [http-nio-8080-exec-1] INFO  com.banxia.interceptor.TokenInterceptor-postHandle....
+2025-06-09 20:22:04.337 [http-nio-8080-exec-3] INFO  com.banxia.interceptor.TokenInterceptor-postHandle....
+2025-06-09 20:22:04.380 [http-nio-8080-exec-7] ERROR com.banxia.exception.GlobalExceptionHandler-程序出错了：
+org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 15' at line 2
+### The error may exist in com/banxia/mapper/OperateLogMapper.xml
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: select * from operate_log;  LIMIT ?
+### Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 15' at line 2
+; bad SQL grammar []
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:246)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:107)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:93)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:347)
+	at jdk.proxy2/jdk.proxy2.$Proxy68.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:194)
+	at org.apache.ibatis.binding.MapperMethod.executeForMany(MapperMethod.java:147)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:80)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:141)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy2/jdk.proxy2.$Proxy69.page(Unknown Source)
+	at com.banxia.service.impl.OperateLogServiceImpl.page(OperateLogServiceImpl.java:23)
+	at com.banxia.controller.OperateLogController.page(OperateLogController.java:27)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 15' at line 2
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:112)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:988)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:382)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:58)
+	at jdk.proxy3/jdk.proxy3.$Proxy95.execute(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.query(PreparedStatementHandler.java:65)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.query(RoutingStatementHandler.java:80)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:65)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:336)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:158)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:110)
+	at com.github.pagehelper.util.ExecutorUtil.pageQuery(ExecutorUtil.java:215)
+	at com.github.pagehelper.PageInterceptor.intercept(PageInterceptor.java:147)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:59)
+	at jdk.proxy2/jdk.proxy2.$Proxy93.query(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:154)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:142)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:333)
+	... 57 common frames omitted
+2025-06-09 20:27:36.383 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-09 20:27:36.475 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-06-09 20:27:36.477 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-06-09 20:27:36.482 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2025-06-09 20:28:09.714 [main] INFO  com.banxia.TliasWebManagementApplication-Starting TliasWebManagementApplication using Java 18.0.2.1 with PID 25692 (C:\Users\19432\OneDrive\Developer\springWeb\tlias-web-management\target\classes started by _ban_xia_ in C:\Users\19432\OneDrive\Developer\springWeb)
+2025-06-09 20:28:09.716 [main] INFO  com.banxia.TliasWebManagementApplication-No active profile set, falling back to 1 default profile: "default"
+2025-06-09 20:28:10.469 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-06-09 20:28:10.477 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-06-09 20:28:10.478 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-06-09 20:28:10.478 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-06-09 20:28:10.508 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-06-09 20:28:10.509 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 763 ms
+2025-06-09 20:28:11.070 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-06-09 20:28:11.082 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-06-09 20:28:11.088 [main] INFO  com.banxia.TliasWebManagementApplication-Started TliasWebManagementApplication in 1.636 seconds (process running for 2.136)
+2025-06-09 20:28:18.274 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-09 20:28:18.368 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-06-09 20:28:20.931 [main] INFO  com.banxia.TliasWebManagementApplication-Starting TliasWebManagementApplication using Java 18.0.2.1 with PID 32556 (C:\Users\19432\OneDrive\Developer\springWeb\tlias-web-management\target\classes started by _ban_xia_ in C:\Users\19432\OneDrive\Developer\springWeb)
+2025-06-09 20:28:20.933 [main] INFO  com.banxia.TliasWebManagementApplication-No active profile set, falling back to 1 default profile: "default"
+2025-06-09 20:28:21.783 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-06-09 20:28:21.837 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 872 ms
+2025-06-09 20:28:22.394 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-06-09 20:28:22.400 [main] INFO  com.banxia.TliasWebManagementApplication-Started TliasWebManagementApplication in 1.735 seconds (process running for 2.694)
+2025-06-09 20:28:22.401 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-09 20:28:22.496 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-06-09 20:28:31.824 [main] INFO  com.banxia.TliasWebManagementApplication-Starting TliasWebManagementApplication using Java 18.0.2.1 with PID 32960 (C:\Users\19432\OneDrive\Developer\springWeb\tlias-web-management\target\classes started by _ban_xia_ in C:\Users\19432\OneDrive\Developer\springWeb)
+2025-06-09 20:28:31.826 [main] INFO  com.banxia.TliasWebManagementApplication-No active profile set, falling back to 1 default profile: "default"
+2025-06-09 20:28:32.586 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-06-09 20:28:32.594 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-06-09 20:28:32.596 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-06-09 20:28:32.596 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-06-09 20:28:32.629 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-06-09 20:28:32.629 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 775 ms
+2025-06-09 20:28:33.112 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-06-09 20:28:33.127 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-06-09 20:28:33.133 [main] INFO  com.banxia.TliasWebManagementApplication-Started TliasWebManagementApplication in 1.569 seconds (process running for 2.129)
+2025-06-09 20:28:34.719 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-09 20:28:34.721 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-06-09 20:28:34.721 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 0 ms
+2025-06-09 20:28:34.731 [http-nio-8080-exec-2] INFO  com.banxia.interceptor.TokenInterceptor-拦截到了请求...
+2025-06-09 20:28:34.731 [http-nio-8080-exec-1] INFO  com.banxia.interceptor.TokenInterceptor-拦截到了请求...
+2025-06-09 20:28:34.764 [http-nio-8080-exec-1] INFO  com.banxia.interceptor.TokenInterceptor-当前用户ID为：2，存入ThreadLocal
+2025-06-09 20:28:34.764 [http-nio-8080-exec-2] INFO  com.banxia.interceptor.TokenInterceptor-当前用户ID为：2，存入ThreadLocal
+2025-06-09 20:28:34.764 [http-nio-8080-exec-1] INFO  com.banxia.interceptor.TokenInterceptor-令牌校验通过
+2025-06-09 20:28:34.764 [http-nio-8080-exec-2] INFO  com.banxia.interceptor.TokenInterceptor-令牌校验通过
+2025-06-09 20:28:34.770 [http-nio-8080-exec-2] INFO  com.banxia.controller.ReportController-统计了班级信息。
+2025-06-09 20:28:34.770 [http-nio-8080-exec-1] INFO  com.banxia.controller.ReportController-查询学生的性别信息。
+2025-06-09 20:28:34.781 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-06-09 20:28:34.924 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@33063a24
+2025-06-09 20:28:34.924 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-06-09 20:28:34.992 [http-nio-8080-exec-2] INFO  com.banxia.interceptor.TokenInterceptor-postHandle....
+2025-06-09 20:28:34.992 [http-nio-8080-exec-1] INFO  com.banxia.interceptor.TokenInterceptor-postHandle....
+2025-06-09 20:28:35.991 [http-nio-8080-exec-3] INFO  com.banxia.interceptor.TokenInterceptor-拦截到了请求...
+2025-06-09 20:28:35.991 [http-nio-8080-exec-4] INFO  com.banxia.interceptor.TokenInterceptor-拦截到了请求...
+2025-06-09 20:28:35.992 [http-nio-8080-exec-3] INFO  com.banxia.interceptor.TokenInterceptor-当前用户ID为：2，存入ThreadLocal
+2025-06-09 20:28:35.992 [http-nio-8080-exec-3] INFO  com.banxia.interceptor.TokenInterceptor-令牌校验通过
+2025-06-09 20:28:35.992 [http-nio-8080-exec-4] INFO  com.banxia.interceptor.TokenInterceptor-当前用户ID为：2，存入ThreadLocal
+2025-06-09 20:28:35.992 [http-nio-8080-exec-3] INFO  com.banxia.controller.ReportController-统计员工职位人数。
+2025-06-09 20:28:35.992 [http-nio-8080-exec-4] INFO  com.banxia.interceptor.TokenInterceptor-令牌校验通过
+2025-06-09 20:28:35.992 [http-nio-8080-exec-4] INFO  com.banxia.controller.ReportController-统计员工性别信息
+2025-06-09 20:28:35.994 [http-nio-8080-exec-4] INFO  com.banxia.interceptor.TokenInterceptor-postHandle....
+2025-06-09 20:28:35.995 [http-nio-8080-exec-3] INFO  com.banxia.interceptor.TokenInterceptor-postHandle....
+2025-06-09 20:28:38.867 [http-nio-8080-exec-8] INFO  com.banxia.interceptor.TokenInterceptor-拦截到了请求...
+2025-06-09 20:28:38.869 [http-nio-8080-exec-8] INFO  com.banxia.interceptor.TokenInterceptor-当前用户ID为：2，存入ThreadLocal
+2025-06-09 20:28:38.869 [http-nio-8080-exec-8] INFO  com.banxia.interceptor.TokenInterceptor-令牌校验通过
+2025-06-09 20:28:38.875 [http-nio-8080-exec-8] INFO  com.banxia.controller.OperateLogController-查询日志 page: 1, pageSize: 15
+2025-06-09 20:28:38.978 [http-nio-8080-exec-8] ERROR com.banxia.exception.GlobalExceptionHandler-程序出错了：
+org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 15' at line 2
+### The error may exist in com/banxia/mapper/OperateLogMapper.xml
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: select * from operate_log;  LIMIT ?
+### Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 15' at line 2
+; bad SQL grammar []
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:246)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:107)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:93)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:347)
+	at jdk.proxy2/jdk.proxy2.$Proxy68.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:194)
+	at org.apache.ibatis.binding.MapperMethod.executeForMany(MapperMethod.java:147)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:80)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:141)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy2/jdk.proxy2.$Proxy69.page(Unknown Source)
+	at com.banxia.service.impl.OperateLogServiceImpl.page(OperateLogServiceImpl.java:23)
+	at com.banxia.controller.OperateLogController.page(OperateLogController.java:27)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 15' at line 2
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:112)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:988)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:382)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:58)
+	at jdk.proxy3/jdk.proxy3.$Proxy95.execute(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.query(PreparedStatementHandler.java:65)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.query(RoutingStatementHandler.java:80)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:65)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:336)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:158)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:110)
+	at com.github.pagehelper.util.ExecutorUtil.pageQuery(ExecutorUtil.java:215)
+	at com.github.pagehelper.PageInterceptor.intercept(PageInterceptor.java:147)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:59)
+	at jdk.proxy2/jdk.proxy2.$Proxy93.query(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:154)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:142)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:333)
+	... 57 common frames omitted
+2025-06-09 20:29:37.945 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-09 20:29:38.036 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-06-09 20:29:38.038 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-06-09 20:29:38.041 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2025-06-09 20:29:39.974 [main] INFO  com.banxia.TliasWebManagementApplication-Starting TliasWebManagementApplication using Java 18.0.2.1 with PID 10472 (C:\Users\19432\OneDrive\Developer\springWeb\tlias-web-management\target\classes started by _ban_xia_ in C:\Users\19432\OneDrive\Developer\springWeb)
+2025-06-09 20:29:39.975 [main] INFO  com.banxia.TliasWebManagementApplication-No active profile set, falling back to 1 default profile: "default"
+2025-06-09 20:29:40.758 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-06-09 20:29:40.766 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-06-09 20:29:40.767 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-06-09 20:29:40.767 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-06-09 20:29:40.798 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-06-09 20:29:40.798 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 790 ms
+2025-06-09 20:29:41.394 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-06-09 20:29:41.408 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-06-09 20:29:41.413 [main] INFO  com.banxia.TliasWebManagementApplication-Started TliasWebManagementApplication in 1.752 seconds (process running for 2.371)
+2025-06-09 20:29:41.678 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-09 20:29:41.678 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-06-09 20:29:41.679 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2025-06-09 20:29:41.688 [http-nio-8080-exec-1] INFO  com.banxia.interceptor.TokenInterceptor-拦截到了请求...
+2025-06-09 20:29:41.722 [http-nio-8080-exec-1] INFO  com.banxia.interceptor.TokenInterceptor-当前用户ID为：2，存入ThreadLocal
+2025-06-09 20:29:41.723 [http-nio-8080-exec-1] INFO  com.banxia.interceptor.TokenInterceptor-令牌校验通过
+2025-06-09 20:29:41.729 [http-nio-8080-exec-1] INFO  com.banxia.controller.ReportController-统计员工性别信息
+2025-06-09 20:29:41.740 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-06-09 20:29:41.848 [http-nio-8080-exec-5] INFO  com.banxia.interceptor.TokenInterceptor-拦截到了请求...
+2025-06-09 20:29:41.848 [http-nio-8080-exec-5] INFO  com.banxia.interceptor.TokenInterceptor-当前用户ID为：2，存入ThreadLocal
+2025-06-09 20:29:41.848 [http-nio-8080-exec-5] INFO  com.banxia.interceptor.TokenInterceptor-令牌校验通过
+2025-06-09 20:29:41.849 [http-nio-8080-exec-5] INFO  com.banxia.controller.ReportController-统计员工职位人数。
+2025-06-09 20:29:41.901 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@300f77e2
+2025-06-09 20:29:41.901 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-06-09 20:29:41.979 [http-nio-8080-exec-5] INFO  com.banxia.interceptor.TokenInterceptor-postHandle....
+2025-06-09 20:29:41.979 [http-nio-8080-exec-1] INFO  com.banxia.interceptor.TokenInterceptor-postHandle....
+2025-06-09 20:29:42.996 [http-nio-8080-exec-3] INFO  com.banxia.interceptor.TokenInterceptor-拦截到了请求...
+2025-06-09 20:29:42.998 [http-nio-8080-exec-3] INFO  com.banxia.interceptor.TokenInterceptor-当前用户ID为：2，存入ThreadLocal
+2025-06-09 20:29:42.998 [http-nio-8080-exec-3] INFO  com.banxia.interceptor.TokenInterceptor-令牌校验通过
+2025-06-09 20:29:42.998 [http-nio-8080-exec-4] INFO  com.banxia.interceptor.TokenInterceptor-拦截到了请求...
+2025-06-09 20:29:42.998 [http-nio-8080-exec-3] INFO  com.banxia.controller.ReportController-统计了班级信息。
+2025-06-09 20:29:43.000 [http-nio-8080-exec-4] INFO  com.banxia.interceptor.TokenInterceptor-当前用户ID为：2，存入ThreadLocal
+2025-06-09 20:29:43.000 [http-nio-8080-exec-4] INFO  com.banxia.interceptor.TokenInterceptor-令牌校验通过
+2025-06-09 20:29:43.000 [http-nio-8080-exec-4] INFO  com.banxia.controller.ReportController-查询学生的性别信息。
+2025-06-09 20:29:43.004 [http-nio-8080-exec-4] INFO  com.banxia.interceptor.TokenInterceptor-postHandle....
+2025-06-09 20:29:43.005 [http-nio-8080-exec-3] INFO  com.banxia.interceptor.TokenInterceptor-postHandle....
+2025-06-09 20:29:43.473 [http-nio-8080-exec-2] INFO  com.banxia.interceptor.TokenInterceptor-拦截到了请求...
+2025-06-09 20:29:43.474 [http-nio-8080-exec-2] INFO  com.banxia.interceptor.TokenInterceptor-当前用户ID为：2，存入ThreadLocal
+2025-06-09 20:29:43.474 [http-nio-8080-exec-2] INFO  com.banxia.interceptor.TokenInterceptor-令牌校验通过
+2025-06-09 20:29:43.480 [http-nio-8080-exec-2] INFO  com.banxia.controller.OperateLogController-查询日志 page: 1, pageSize: 15
+2025-06-09 20:29:43.525 [http-nio-8080-exec-2] INFO  com.banxia.interceptor.TokenInterceptor-postHandle....
+2025-06-09 20:30:10.794 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-09 20:30:11.099 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-06-09 20:30:11.111 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-06-09 20:30:11.120 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
