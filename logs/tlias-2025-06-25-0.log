@@ -1,0 +1,708 @@
+2025-06-25 15:04:23.554 [main] INFO  com.banxia.TliasWebManagementApplication-Starting TliasWebManagementApplication using Java 18.0.2.1 with PID 18360 (C:\Users\19432\OneDrive\Developer\springWeb\tlias-web-management\target\classes started by _ban_xia_ in C:\Users\19432\OneDrive\Developer\springWeb)
+2025-06-25 15:04:23.555 [main] INFO  com.banxia.TliasWebManagementApplication-No active profile set, falling back to 1 default profile: "default"
+2025-06-25 15:04:24.478 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-06-25 15:04:24.489 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-06-25 15:04:24.490 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-06-25 15:04:24.491 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-06-25 15:04:24.533 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-06-25 15:04:24.534 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 951 ms
+2025-06-25 15:04:25.251 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-06-25 15:04:25.271 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-06-25 15:04:25.276 [main] INFO  com.banxia.TliasWebManagementApplication-Started TliasWebManagementApplication in 2.028 seconds (process running for 8.313)
+2025-06-25 15:08:20.609 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-25 15:08:20.894 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-06-25 15:39:55.658 [main] INFO  com.banxia.TliasWebManagementApplication-Starting TliasWebManagementApplication using Java 18.0.2.1 with PID 28068 (C:\Users\19432\OneDrive\Developer\springWeb\tlias-web-management\target\classes started by _ban_xia_ in C:\Users\19432\OneDrive\Developer\springWeb)
+2025-06-25 15:39:55.660 [main] INFO  com.banxia.TliasWebManagementApplication-No active profile set, falling back to 1 default profile: "default"
+2025-06-25 15:39:56.648 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-06-25 15:39:56.657 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-06-25 15:39:56.658 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-06-25 15:39:56.658 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-06-25 15:39:56.694 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-06-25 15:39:56.694 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1001 ms
+2025-06-25 15:39:57.319 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-06-25 15:39:57.337 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-06-25 15:39:57.342 [main] INFO  com.banxia.TliasWebManagementApplication-Started TliasWebManagementApplication in 2.126 seconds (process running for 5.45)
+2025-06-25 15:40:04.024 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-25 15:40:04.024 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-06-25 15:40:04.025 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2025-06-25 15:40:04.054 [http-nio-8080-exec-1] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-25 15:40:04.070 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-06-25 15:40:04.443 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1e2d0783
+2025-06-25 15:40:04.446 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-06-25 15:40:05.845 [http-nio-8080-exec-3] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-25 15:40:05.860 [http-nio-8080-exec-2] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-06-25 17:03:33.888 [http-nio-8080-exec-4] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-25 17:03:33.898 [http-nio-8080-exec-5] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-06-25 17:03:49.591 [http-nio-8080-exec-6] INFO  com.banxia.controller.UploadController-文件上传：屏幕截图 2023-12-08 151830.png
+2025-06-25 17:03:50.668 [http-nio-8080-exec-6] INFO  com.banxia.controller.UploadController-文件上传OSS，URL：https://banxia-java.oss-cn-beijing.aliyuncs.com/2025/06/60c4e5be-b37c-449f-8dee-d6d2f82f3c8b.png
+2025-06-25 17:05:35.511 [http-nio-8080-exec-8] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-25 17:05:35.512 [http-nio-8080-exec-7] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-06-25 17:05:39.888 [http-nio-8080-exec-9] INFO  com.banxia.controller.UploadController-文件上传：屏幕截图 2025-04-19 092316.png
+2025-06-25 17:05:40.490 [http-nio-8080-exec-9] INFO  com.banxia.controller.UploadController-文件上传OSS，URL：https://banxia-java.oss-cn-beijing.aliyuncs.com/2025/06/79d7875d-0ce4-481a-aa54-4291af9f8c98.png
+2025-06-25 17:08:30.012 [http-nio-8080-exec-10] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-25 17:08:30.013 [http-nio-8080-exec-1] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-06-25 17:08:33.104 [http-nio-8080-exec-2] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-25 17:08:33.104 [http-nio-8080-exec-3] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-06-25 17:12:28.356 [http-nio-8080-exec-5] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-25 17:12:28.356 [http-nio-8080-exec-4] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-06-25 17:14:02.091 [http-nio-8080-exec-6] INFO  com.banxia.controller.UploadController-文件上传：屏幕截图 2025-05-22 192555.png
+2025-06-25 17:14:03.563 [http-nio-8080-exec-6] INFO  com.banxia.controller.UploadController-文件上传OSS，URL：https://banxia-java.oss-cn-beijing.aliyuncs.com/2025/06/1e197153-f59c-42d7-af03-c852d46b22d0.png
+2025-06-25 17:14:04.837 [http-nio-8080-exec-8] INFO  com.banxia.controller.UploadController-文件上传：屏幕截图 2025-04-19 092212.png
+2025-06-25 17:14:05.236 [http-nio-8080-exec-8] INFO  com.banxia.controller.UploadController-文件上传OSS，URL：https://banxia-java.oss-cn-beijing.aliyuncs.com/2025/06/7959db91-c58a-4d5a-b33e-6f7e456c1cda.png
+2025-06-25 17:14:08.553 [http-nio-8080-exec-7] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-25 17:16:34.281 [http-nio-8080-exec-10] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-25 17:16:34.282 [http-nio-8080-exec-9] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-06-25 17:16:35.690 [http-nio-8080-exec-1] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-25 17:16:36.204 [http-nio-8080-exec-3] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-25 17:16:36.204 [http-nio-8080-exec-2] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-06-25 17:16:53.870 [http-nio-8080-exec-4] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-25 17:16:53.870 [http-nio-8080-exec-5] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-06-25 17:20:11.587 [http-nio-8080-exec-6] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-25 17:20:11.587 [http-nio-8080-exec-8] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-06-25 17:37:26.846 [http-nio-8080-exec-10] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-25 17:37:26.847 [http-nio-8080-exec-7] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-06-25 17:38:13.707 [http-nio-8080-exec-1] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-25 17:38:13.707 [http-nio-8080-exec-9] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-06-25 17:38:32.676 [http-nio-8080-exec-2] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-25 17:38:32.677 [http-nio-8080-exec-3] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-06-25 17:39:49.800 [http-nio-8080-exec-5] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-25 17:39:49.801 [http-nio-8080-exec-4] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-06-25 17:39:59.654 [http-nio-8080-exec-8] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-25 17:39:59.654 [http-nio-8080-exec-6] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-06-25 17:42:13.845 [http-nio-8080-exec-7] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-25 17:42:13.845 [http-nio-8080-exec-10] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-06-25 17:46:11.188 [http-nio-8080-exec-1] INFO  com.banxia.controller.UploadController-文件上传：屏幕截图 2023-12-08 151830.png
+2025-06-25 17:46:13.457 [http-nio-8080-exec-1] INFO  com.banxia.controller.UploadController-文件上传OSS，URL：https://banxia-java.oss-cn-beijing.aliyuncs.com/2025/06/208ac2fc-f69c-424c-aa5f-a91cc41fb076.png
+2025-06-25 17:51:17.726 [http-nio-8080-exec-2] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-25 17:51:17.727 [http-nio-8080-exec-9] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-06-25 17:52:10.285 [http-nio-8080-exec-5] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-25 17:52:10.285 [http-nio-8080-exec-3] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-06-25 17:55:21.558 [http-nio-8080-exec-8] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-25 17:55:21.558 [http-nio-8080-exec-4] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-06-25 19:25:53.838 [http-nio-8080-exec-6] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-25 19:25:53.853 [http-nio-8080-exec-7] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-06-25 19:26:02.468 [http-nio-8080-exec-1] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-25 19:26:02.469 [http-nio-8080-exec-10] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-06-25 19:26:02.760 [http-nio-8080-exec-9] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-25 19:26:02.761 [http-nio-8080-exec-2] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-06-25 19:26:12.779 [http-nio-8080-exec-5] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-06-25 19:26:12.779 [http-nio-8080-exec-3] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-25 19:26:31.742 [http-nio-8080-exec-4] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-25 19:26:31.742 [http-nio-8080-exec-8] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-06-25 20:23:29.070 [http-nio-8080-exec-6] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-25 20:23:29.078 [http-nio-8080-exec-7] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-06-25 20:24:28.189 [http-nio-8080-exec-10] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-25 20:24:28.189 [http-nio-8080-exec-1] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-06-25 20:24:39.914 [http-nio-8080-exec-9] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-25 20:24:40.431 [http-nio-8080-exec-3] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-25 20:24:40.431 [http-nio-8080-exec-2] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-06-25 20:25:48.308 [http-nio-8080-exec-4] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-25 20:25:48.308 [http-nio-8080-exec-5] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-06-25 20:44:55.174 [http-nio-8080-exec-6] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-25 20:44:55.175 [http-nio-8080-exec-8] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-06-25 20:50:02.224 [http-nio-8080-exec-10] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-25 20:50:02.224 [http-nio-8080-exec-7] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-06-25 20:54:54.758 [http-nio-8080-exec-9] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-25 20:54:54.759 [http-nio-8080-exec-1] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-06-25 20:55:54.016 [http-nio-8080-exec-3] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-06-25 20:55:54.029 [http-nio-8080-exec-2] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-25 20:59:03.376 [http-nio-8080-exec-4] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-06-25 20:59:03.377 [http-nio-8080-exec-5] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-25 20:59:12.244 [http-nio-8080-exec-8] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-25 20:59:12.245 [http-nio-8080-exec-6] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-06-25 21:03:19.648 [http-nio-8080-exec-7] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-25 21:03:19.649 [http-nio-8080-exec-10] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-06-25 21:04:14.586 [http-nio-8080-exec-1] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-25 21:04:14.586 [http-nio-8080-exec-9] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-06-25 21:04:24.009 [http-nio-8080-exec-2] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-25 21:04:24.009 [http-nio-8080-exec-3] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-06-25 21:04:28.879 [http-nio-8080-exec-5] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-06-25 21:04:28.879 [http-nio-8080-exec-4] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-25 21:05:28.332 [http-nio-8080-exec-6] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-25 21:05:28.332 [http-nio-8080-exec-8] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-06-25 21:14:57.510 [http-nio-8080-exec-10] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-25 21:14:57.511 [http-nio-8080-exec-7] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-06-25 21:18:53.342 [http-nio-8080-exec-9] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-25 21:18:53.342 [http-nio-8080-exec-1] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-06-25 21:20:13.078 [http-nio-8080-exec-2] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-06-25 21:20:13.079 [http-nio-8080-exec-3] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-25 21:20:23.338 [http-nio-8080-exec-4] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-25 21:20:23.339 [http-nio-8080-exec-5] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-06-25 21:20:32.199 [http-nio-8080-exec-8] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-25 21:20:32.199 [http-nio-8080-exec-6] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-06-25 21:21:23.383 [http-nio-8080-exec-10] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-25 21:21:23.384 [http-nio-8080-exec-7] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-06-25 21:22:35.969 [http-nio-8080-exec-1] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-25 21:22:35.969 [http-nio-8080-exec-9] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-06-25 21:23:10.586 [http-nio-8080-exec-2] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-25 21:23:10.585 [http-nio-8080-exec-3] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-06-25 21:23:32.149 [http-nio-8080-exec-5] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-25 21:23:32.149 [http-nio-8080-exec-4] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-06-25 21:24:02.848 [http-nio-8080-exec-6] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-25 21:24:02.848 [http-nio-8080-exec-8] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-06-25 21:24:25.701 [http-nio-8080-exec-10] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-06-25 21:24:25.700 [http-nio-8080-exec-7] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-25 21:24:58.129 [http-nio-8080-exec-1] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-06-25 21:24:58.129 [http-nio-8080-exec-9] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-25 21:25:29.370 [http-nio-8080-exec-3] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-25 21:25:29.370 [http-nio-8080-exec-2] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-06-25 21:27:28.116 [http-nio-8080-exec-5] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-06-25 21:27:28.116 [http-nio-8080-exec-4] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-25 21:27:54.237 [http-nio-8080-exec-6] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-25 21:27:54.237 [http-nio-8080-exec-8] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-06-25 21:28:56.733 [http-nio-8080-exec-7] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-06-25 21:28:56.733 [http-nio-8080-exec-10] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-25 22:11:08.743 [http-nio-8080-exec-9] INFO  com.banxia.controller.UploadController-文件上传：屏幕截图 2024-05-17 125442.png
+2025-06-25 22:11:09.571 [http-nio-8080-exec-9] INFO  com.banxia.controller.UploadController-文件上传OSS，URL：https://banxia-java.oss-cn-beijing.aliyuncs.com/2025/06/280c2d92-5d9b-4115-af6e-002da250a68c.png
+2025-06-25 22:17:18.370 [http-nio-8080-exec-1] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-25 22:17:19.329 [http-nio-8080-exec-3] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-25 22:17:19.331 [http-nio-8080-exec-2] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-06-25 22:17:39.408 [http-nio-8080-exec-4] INFO  com.banxia.controller.UploadController-文件上传：屏幕截图 2025-04-19 092316.png
+2025-06-25 22:17:40.070 [http-nio-8080-exec-4] INFO  com.banxia.controller.UploadController-文件上传OSS，URL：https://banxia-java.oss-cn-beijing.aliyuncs.com/2025/06/ecbae26b-2907-4cd1-8ead-985fda5731d8.png
+2025-06-25 22:21:24.413 [http-nio-8080-exec-5] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-06-25 22:21:24.412 [http-nio-8080-exec-6] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-25 22:21:43.252 [http-nio-8080-exec-8] INFO  com.banxia.controller.UploadController-文件上传：屏幕截图 2025-05-28 125033.png
+2025-06-25 22:21:43.716 [http-nio-8080-exec-8] INFO  com.banxia.controller.UploadController-文件上传OSS，URL：https://banxia-java.oss-cn-beijing.aliyuncs.com/2025/06/d9e85658-330c-4599-b48f-dcbbe42db802.png
+2025-06-25 22:24:55.864 [http-nio-8080-exec-7] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-25 22:24:55.865 [http-nio-8080-exec-10] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-06-25 22:25:29.172 [http-nio-8080-exec-1] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-25 22:25:29.173 [http-nio-8080-exec-9] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-06-25 22:25:58.043 [http-nio-8080-exec-3] INFO  com.banxia.controller.EmpController-新增员工：Emp(id=null, username=, password=null, name=, gender=null, phone=, job=null, salary=null, image=, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=[])
+2025-06-25 22:25:58.066 [http-nio-8080-exec-3] DEBUG o.s.jdbc.support.JdbcTransactionManager-Creating new transaction with name [com.banxia.service.impl.EmpServiceImpl.save]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,-java.lang.Exception
+2025-06-25 22:25:58.067 [http-nio-8080-exec-3] DEBUG o.s.jdbc.support.JdbcTransactionManager-Acquired Connection [HikariProxyConnection@502281339 wrapping com.mysql.cj.jdbc.ConnectionImpl@8aea201] for JDBC transaction
+2025-06-25 22:25:58.069 [http-nio-8080-exec-3] DEBUG o.s.jdbc.support.JdbcTransactionManager-Switching JDBC Connection [HikariProxyConnection@502281339 wrapping com.mysql.cj.jdbc.ConnectionImpl@8aea201] to manual commit
+2025-06-25 22:25:58.275 [http-nio-8080-exec-3] DEBUG o.s.jdbc.support.JdbcTransactionManager-Suspending current transaction, creating new transaction with name [com.banxia.service.impl.EmpLogServiceImpl.insertLog]
+2025-06-25 22:25:58.276 [http-nio-8080-exec-3] DEBUG o.s.jdbc.support.JdbcTransactionManager-Acquired Connection [HikariProxyConnection@1250664370 wrapping com.mysql.cj.jdbc.ConnectionImpl@1b1262fa] for JDBC transaction
+2025-06-25 22:25:58.276 [http-nio-8080-exec-3] DEBUG o.s.jdbc.support.JdbcTransactionManager-Switching JDBC Connection [HikariProxyConnection@1250664370 wrapping com.mysql.cj.jdbc.ConnectionImpl@1b1262fa] to manual commit
+2025-06-25 22:25:58.324 [http-nio-8080-exec-3] INFO  com.banxia.aop.LogAspect-记录日志：OperateLog(id=null, operateEmpId=null, operateTime=2025-06-25T22:25:58.322057300, className=com.banxia.service.impl.EmpLogServiceImpl, methodName=insertLog, methodParams=[{"id":null,"operateTime":"2025-06-25T22:25:58.2751952","info":"新增员工Emp(id=null, username=, password=null, name=, gender=null, phone=, job=null, salary=null, image=, entryDate=null, deptId=null, createTime=2025-06-25T22:25:58.099807600, updateTime=2025-06-25T22:25:58.099807600, deptName=null, exprList=[])"}], returnValue=null, costTime=46)
+2025-06-25 22:25:58.336 [http-nio-8080-exec-3] DEBUG o.s.jdbc.support.JdbcTransactionManager-Initiating transaction commit
+2025-06-25 22:25:58.336 [http-nio-8080-exec-3] DEBUG o.s.jdbc.support.JdbcTransactionManager-Committing JDBC transaction on Connection [HikariProxyConnection@1250664370 wrapping com.mysql.cj.jdbc.ConnectionImpl@1b1262fa]
+2025-06-25 22:25:58.343 [http-nio-8080-exec-3] DEBUG o.s.jdbc.support.JdbcTransactionManager-Releasing JDBC Connection [HikariProxyConnection@1250664370 wrapping com.mysql.cj.jdbc.ConnectionImpl@1b1262fa] after transaction
+2025-06-25 22:25:58.343 [http-nio-8080-exec-3] DEBUG o.s.jdbc.support.JdbcTransactionManager-Resuming suspended transaction after completion of inner transaction
+2025-06-25 22:25:58.343 [http-nio-8080-exec-3] ERROR com.banxia.aop.LogAspect-方法执行异常
+org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'gender' cannot be null
+### The error may exist in com/banxia/mapper/EmpMapper.xml
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: insert into emp(username, name, gender, phone, job, salary, image, entry_date, dept_id, create_time, update_time)         values (?,?,?,?,?,?,?,?,?,?,?);
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'gender' cannot be null
+; Column 'gender' cannot be null
+	at org.springframework.jdbc.support.SQLExceptionSubclassTranslator.doTranslate(SQLExceptionSubclassTranslator.java:97)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:107)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:116)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:93)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:347)
+	at jdk.proxy2/jdk.proxy2.$Proxy68.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:224)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:62)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:141)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy2/jdk.proxy2.$Proxy82.inster(Unknown Source)
+	at com.banxia.service.impl.EmpServiceImpl.save(EmpServiceImpl.java:62)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at com.banxia.aop.LogAspect.around(LogAspect.java:88)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:642)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:632)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:71)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:173)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:380)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:727)
+	at com.banxia.service.impl.EmpServiceImpl$$SpringCGLIB$$0.save(<generated>)
+	at com.banxia.controller.EmpController.save(EmpController.java:63)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Column 'gender' cannot be null
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:109)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:988)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:382)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:58)
+	at jdk.proxy3/jdk.proxy3.$Proxy94.execute(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:48)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:75)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:61)
+	at jdk.proxy2/jdk.proxy2.$Proxy92.update(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:184)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:333)
+	... 76 common frames omitted
+2025-06-25 22:25:58.353 [http-nio-8080-exec-3] INFO  com.banxia.aop.LogAspect-记录日志：OperateLog(id=null, operateEmpId=null, operateTime=2025-06-25T22:25:58.352402800, className=com.banxia.service.impl.EmpServiceImpl, methodName=save, methodParams=[{"id":null,"username":"","password":null,"name":"","gender":null,"phone":"","job":null,"salary":null,"image":"","entryDate":null,"deptId":null,"createTime":null,"updateTime":null,"deptName":null,"exprList":[]}], returnValue=null, costTime=262)
+2025-06-25 22:25:58.355 [http-nio-8080-exec-3] DEBUG o.s.jdbc.support.JdbcTransactionManager-Initiating transaction rollback
+2025-06-25 22:25:58.355 [http-nio-8080-exec-3] DEBUG o.s.jdbc.support.JdbcTransactionManager-Rolling back JDBC transaction on Connection [HikariProxyConnection@502281339 wrapping com.mysql.cj.jdbc.ConnectionImpl@8aea201]
+2025-06-25 22:25:58.356 [http-nio-8080-exec-3] DEBUG o.s.jdbc.support.JdbcTransactionManager-Releasing JDBC Connection [HikariProxyConnection@502281339 wrapping com.mysql.cj.jdbc.ConnectionImpl@8aea201] after transaction
+2025-06-25 22:25:58.358 [http-nio-8080-exec-3] ERROR com.banxia.exception.GlobalExceptionHandler-程序出错了：
+org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'gender' cannot be null
+### The error may exist in com/banxia/mapper/EmpMapper.xml
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: insert into emp(username, name, gender, phone, job, salary, image, entry_date, dept_id, create_time, update_time)         values (?,?,?,?,?,?,?,?,?,?,?);
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'gender' cannot be null
+; Column 'gender' cannot be null
+	at org.springframework.jdbc.support.SQLExceptionSubclassTranslator.doTranslate(SQLExceptionSubclassTranslator.java:97)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:107)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:116)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:93)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:347)
+	at jdk.proxy2/jdk.proxy2.$Proxy68.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:224)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:62)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:141)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy2/jdk.proxy2.$Proxy82.inster(Unknown Source)
+	at com.banxia.service.impl.EmpServiceImpl.save(EmpServiceImpl.java:62)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at com.banxia.aop.LogAspect.around(LogAspect.java:88)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:642)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:632)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:71)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:173)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:380)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:727)
+	at com.banxia.service.impl.EmpServiceImpl$$SpringCGLIB$$0.save(<generated>)
+	at com.banxia.controller.EmpController.save(EmpController.java:63)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Column 'gender' cannot be null
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:109)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:988)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:382)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:58)
+	at jdk.proxy3/jdk.proxy3.$Proxy94.execute(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:48)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:75)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:61)
+	at jdk.proxy2/jdk.proxy2.$Proxy92.update(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:184)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:333)
+	... 76 common frames omitted
+2025-06-25 22:26:20.428 [http-nio-8080-exec-2] INFO  com.banxia.controller.EmpController-新增员工：Emp(id=null, username=, password=null, name=, gender=null, phone=, job=null, salary=null, image=, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=[])
+2025-06-25 22:26:20.429 [http-nio-8080-exec-2] DEBUG o.s.jdbc.support.JdbcTransactionManager-Creating new transaction with name [com.banxia.service.impl.EmpServiceImpl.save]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,-java.lang.Exception
+2025-06-25 22:26:20.429 [http-nio-8080-exec-2] DEBUG o.s.jdbc.support.JdbcTransactionManager-Acquired Connection [HikariProxyConnection@1686118275 wrapping com.mysql.cj.jdbc.ConnectionImpl@8aea201] for JDBC transaction
+2025-06-25 22:26:20.429 [http-nio-8080-exec-2] DEBUG o.s.jdbc.support.JdbcTransactionManager-Switching JDBC Connection [HikariProxyConnection@1686118275 wrapping com.mysql.cj.jdbc.ConnectionImpl@8aea201] to manual commit
+2025-06-25 22:26:20.431 [http-nio-8080-exec-2] DEBUG o.s.jdbc.support.JdbcTransactionManager-Suspending current transaction, creating new transaction with name [com.banxia.service.impl.EmpLogServiceImpl.insertLog]
+2025-06-25 22:26:20.432 [http-nio-8080-exec-2] DEBUG o.s.jdbc.support.JdbcTransactionManager-Acquired Connection [HikariProxyConnection@122332787 wrapping com.mysql.cj.jdbc.ConnectionImpl@1b1262fa] for JDBC transaction
+2025-06-25 22:26:20.432 [http-nio-8080-exec-2] DEBUG o.s.jdbc.support.JdbcTransactionManager-Switching JDBC Connection [HikariProxyConnection@122332787 wrapping com.mysql.cj.jdbc.ConnectionImpl@1b1262fa] to manual commit
+2025-06-25 22:26:20.437 [http-nio-8080-exec-2] INFO  com.banxia.aop.LogAspect-记录日志：OperateLog(id=null, operateEmpId=null, operateTime=2025-06-25T22:26:20.437826300, className=com.banxia.service.impl.EmpLogServiceImpl, methodName=insertLog, methodParams=[{"id":null,"operateTime":"2025-06-25T22:26:20.4311871","info":"新增员工Emp(id=null, username=, password=null, name=, gender=null, phone=, job=null, salary=null, image=, entryDate=null, deptId=null, createTime=2025-06-25T22:26:20.429184700, updateTime=2025-06-25T22:26:20.429184700, deptName=null, exprList=[])"}], returnValue=null, costTime=5)
+2025-06-25 22:26:20.438 [http-nio-8080-exec-2] DEBUG o.s.jdbc.support.JdbcTransactionManager-Initiating transaction commit
+2025-06-25 22:26:20.438 [http-nio-8080-exec-2] DEBUG o.s.jdbc.support.JdbcTransactionManager-Committing JDBC transaction on Connection [HikariProxyConnection@122332787 wrapping com.mysql.cj.jdbc.ConnectionImpl@1b1262fa]
+2025-06-25 22:26:20.441 [http-nio-8080-exec-2] DEBUG o.s.jdbc.support.JdbcTransactionManager-Releasing JDBC Connection [HikariProxyConnection@122332787 wrapping com.mysql.cj.jdbc.ConnectionImpl@1b1262fa] after transaction
+2025-06-25 22:26:20.441 [http-nio-8080-exec-2] DEBUG o.s.jdbc.support.JdbcTransactionManager-Resuming suspended transaction after completion of inner transaction
+2025-06-25 22:26:20.442 [http-nio-8080-exec-2] ERROR com.banxia.aop.LogAspect-方法执行异常
+org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'gender' cannot be null
+### The error may exist in com/banxia/mapper/EmpMapper.xml
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: insert into emp(username, name, gender, phone, job, salary, image, entry_date, dept_id, create_time, update_time)         values (?,?,?,?,?,?,?,?,?,?,?);
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'gender' cannot be null
+; Column 'gender' cannot be null
+	at org.springframework.jdbc.support.SQLExceptionSubclassTranslator.doTranslate(SQLExceptionSubclassTranslator.java:97)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:107)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:116)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:93)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:347)
+	at jdk.proxy2/jdk.proxy2.$Proxy68.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:224)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:62)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:141)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy2/jdk.proxy2.$Proxy82.inster(Unknown Source)
+	at com.banxia.service.impl.EmpServiceImpl.save(EmpServiceImpl.java:62)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at com.banxia.aop.LogAspect.around(LogAspect.java:88)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:642)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:632)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:71)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:173)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:380)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:727)
+	at com.banxia.service.impl.EmpServiceImpl$$SpringCGLIB$$0.save(<generated>)
+	at com.banxia.controller.EmpController.save(EmpController.java:63)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Column 'gender' cannot be null
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:109)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:988)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:382)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:58)
+	at jdk.proxy3/jdk.proxy3.$Proxy94.execute(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:48)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:75)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:61)
+	at jdk.proxy2/jdk.proxy2.$Proxy92.update(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:184)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:333)
+	... 76 common frames omitted
+2025-06-25 22:26:20.442 [http-nio-8080-exec-2] INFO  com.banxia.aop.LogAspect-记录日志：OperateLog(id=null, operateEmpId=null, operateTime=2025-06-25T22:26:20.442609500, className=com.banxia.service.impl.EmpServiceImpl, methodName=save, methodParams=[{"id":null,"username":"","password":null,"name":"","gender":null,"phone":"","job":null,"salary":null,"image":"","entryDate":null,"deptId":null,"createTime":null,"updateTime":null,"deptName":null,"exprList":[]}], returnValue=null, costTime=13)
+2025-06-25 22:26:20.443 [http-nio-8080-exec-2] DEBUG o.s.jdbc.support.JdbcTransactionManager-Initiating transaction rollback
+2025-06-25 22:26:20.444 [http-nio-8080-exec-2] DEBUG o.s.jdbc.support.JdbcTransactionManager-Rolling back JDBC transaction on Connection [HikariProxyConnection@1686118275 wrapping com.mysql.cj.jdbc.ConnectionImpl@8aea201]
+2025-06-25 22:26:20.444 [http-nio-8080-exec-2] DEBUG o.s.jdbc.support.JdbcTransactionManager-Releasing JDBC Connection [HikariProxyConnection@1686118275 wrapping com.mysql.cj.jdbc.ConnectionImpl@8aea201] after transaction
+2025-06-25 22:26:20.445 [http-nio-8080-exec-2] ERROR com.banxia.exception.GlobalExceptionHandler-程序出错了：
+org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'gender' cannot be null
+### The error may exist in com/banxia/mapper/EmpMapper.xml
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: insert into emp(username, name, gender, phone, job, salary, image, entry_date, dept_id, create_time, update_time)         values (?,?,?,?,?,?,?,?,?,?,?);
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'gender' cannot be null
+; Column 'gender' cannot be null
+	at org.springframework.jdbc.support.SQLExceptionSubclassTranslator.doTranslate(SQLExceptionSubclassTranslator.java:97)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:107)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:116)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:93)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:347)
+	at jdk.proxy2/jdk.proxy2.$Proxy68.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:224)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:62)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:141)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy2/jdk.proxy2.$Proxy82.inster(Unknown Source)
+	at com.banxia.service.impl.EmpServiceImpl.save(EmpServiceImpl.java:62)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at com.banxia.aop.LogAspect.around(LogAspect.java:88)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:642)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:632)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:71)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:173)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:380)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:727)
+	at com.banxia.service.impl.EmpServiceImpl$$SpringCGLIB$$0.save(<generated>)
+	at com.banxia.controller.EmpController.save(EmpController.java:63)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Column 'gender' cannot be null
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:109)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:988)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:382)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:58)
+	at jdk.proxy3/jdk.proxy3.$Proxy94.execute(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:48)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:75)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:61)
+	at jdk.proxy2/jdk.proxy2.$Proxy92.update(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:184)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:333)
+	... 76 common frames omitted
+2025-06-25 22:26:54.218 [http-nio-8080-exec-4] INFO  com.banxia.controller.UploadController-文件上传：屏幕截图 2025-04-19 092316.png
+2025-06-25 22:26:55.758 [http-nio-8080-exec-4] INFO  com.banxia.controller.UploadController-文件上传OSS，URL：https://banxia-java.oss-cn-beijing.aliyuncs.com/2025/06/beba6af9-35e1-4d87-aed5-b5ffd949e967.png
+2025-06-25 22:26:56.980 [http-nio-8080-exec-6] INFO  com.banxia.controller.EmpController-新增员工：Emp(id=null, username=srh, password=null, name=孙汝恒, gender=1, phone=19863551805, job=2, salary=30000, image=https://banxia-java.oss-cn-beijing.aliyuncs.com/2025/06/beba6af9-35e1-4d87-aed5-b5ffd949e967.png, entryDate=2025-05-27, deptId=8, createTime=null, updateTime=null, deptName=null, exprList=[])
+2025-06-25 22:26:56.980 [http-nio-8080-exec-6] DEBUG o.s.jdbc.support.JdbcTransactionManager-Creating new transaction with name [com.banxia.service.impl.EmpServiceImpl.save]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,-java.lang.Exception
+2025-06-25 22:26:56.981 [http-nio-8080-exec-6] DEBUG o.s.jdbc.support.JdbcTransactionManager-Acquired Connection [HikariProxyConnection@817098019 wrapping com.mysql.cj.jdbc.ConnectionImpl@8aea201] for JDBC transaction
+2025-06-25 22:26:56.981 [http-nio-8080-exec-6] DEBUG o.s.jdbc.support.JdbcTransactionManager-Switching JDBC Connection [HikariProxyConnection@817098019 wrapping com.mysql.cj.jdbc.ConnectionImpl@8aea201] to manual commit
+2025-06-25 22:26:56.987 [http-nio-8080-exec-6] DEBUG o.s.jdbc.support.JdbcTransactionManager-Suspending current transaction, creating new transaction with name [com.banxia.service.impl.EmpLogServiceImpl.insertLog]
+2025-06-25 22:26:56.988 [http-nio-8080-exec-6] DEBUG o.s.jdbc.support.JdbcTransactionManager-Acquired Connection [HikariProxyConnection@493622809 wrapping com.mysql.cj.jdbc.ConnectionImpl@1b1262fa] for JDBC transaction
+2025-06-25 22:26:56.988 [http-nio-8080-exec-6] DEBUG o.s.jdbc.support.JdbcTransactionManager-Switching JDBC Connection [HikariProxyConnection@493622809 wrapping com.mysql.cj.jdbc.ConnectionImpl@1b1262fa] to manual commit
+2025-06-25 22:26:56.990 [http-nio-8080-exec-6] INFO  com.banxia.aop.LogAspect-记录日志：OperateLog(id=null, operateEmpId=null, operateTime=2025-06-25T22:26:56.990644700, className=com.banxia.service.impl.EmpLogServiceImpl, methodName=insertLog, methodParams=[{"id":null,"operateTime":"2025-06-25T22:26:56.9876404","info":"新增员工Emp(id=38, username=srh, password=null, name=孙汝恒, gender=1, phone=19863551805, job=2, salary=30000, image=https://banxia-java.oss-cn-beijing.aliyuncs.com/2025/06/beba6af9-35e1-4d87-aed5-b5ffd949e967.png, entryDate=2025-05-27, deptId=8, createTime=2025-06-25T22:26:56.981644500, updateTime=2025-06-25T22:26:56.981644500, deptName=null, exprList=[])"}], returnValue=null, costTime=2)
+2025-06-25 22:26:56.991 [http-nio-8080-exec-6] DEBUG o.s.jdbc.support.JdbcTransactionManager-Initiating transaction commit
+2025-06-25 22:26:56.991 [http-nio-8080-exec-6] DEBUG o.s.jdbc.support.JdbcTransactionManager-Committing JDBC transaction on Connection [HikariProxyConnection@493622809 wrapping com.mysql.cj.jdbc.ConnectionImpl@1b1262fa]
+2025-06-25 22:26:56.993 [http-nio-8080-exec-6] DEBUG o.s.jdbc.support.JdbcTransactionManager-Releasing JDBC Connection [HikariProxyConnection@493622809 wrapping com.mysql.cj.jdbc.ConnectionImpl@1b1262fa] after transaction
+2025-06-25 22:26:56.994 [http-nio-8080-exec-6] DEBUG o.s.jdbc.support.JdbcTransactionManager-Resuming suspended transaction after completion of inner transaction
+2025-06-25 22:26:56.994 [http-nio-8080-exec-6] INFO  com.banxia.aop.LogAspect-记录日志：OperateLog(id=null, operateEmpId=null, operateTime=2025-06-25T22:26:56.994648200, className=com.banxia.service.impl.EmpServiceImpl, methodName=save, methodParams=[{"id":null,"username":"srh","password":null,"name":"孙汝恒","gender":1,"phone":"19863551805","job":2,"salary":30000,"image":"https://banxia-java.oss-cn-beijing.aliyuncs.com/2025/06/beba6af9-35e1-4d87-aed5-b5ffd949e967.png","entryDate":"2025-05-27","deptId":8,"createTime":null,"updateTime":null,"deptName":null,"exprList":[]}], returnValue=null, costTime=13)
+2025-06-25 22:26:56.995 [http-nio-8080-exec-6] DEBUG o.s.jdbc.support.JdbcTransactionManager-Initiating transaction commit
+2025-06-25 22:26:56.995 [http-nio-8080-exec-6] DEBUG o.s.jdbc.support.JdbcTransactionManager-Committing JDBC transaction on Connection [HikariProxyConnection@817098019 wrapping com.mysql.cj.jdbc.ConnectionImpl@8aea201]
+2025-06-25 22:26:56.997 [http-nio-8080-exec-6] DEBUG o.s.jdbc.support.JdbcTransactionManager-Releasing JDBC Connection [HikariProxyConnection@817098019 wrapping com.mysql.cj.jdbc.ConnectionImpl@8aea201] after transaction
+2025-06-25 22:26:57.006 [http-nio-8080-exec-5] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-06-25 22:28:32.118 [http-nio-8080-exec-7] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-25 22:28:32.118 [http-nio-8080-exec-8] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-06-25 22:29:09.185 [http-nio-8080-exec-10] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-25 22:29:09.186 [http-nio-8080-exec-1] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-06-25 23:52:00.458 [main] INFO  com.banxia.TliasWebManagementApplication-Starting TliasWebManagementApplication using Java 18.0.2.1 with PID 7056 (C:\Users\19432\OneDrive\Developer\springWeb\tlias-web-management\target\classes started by _ban_xia_ in C:\Users\19432\OneDrive\Developer\springWeb)
+2025-06-25 23:52:00.460 [main] INFO  com.banxia.TliasWebManagementApplication-No active profile set, falling back to 1 default profile: "default"
+2025-06-25 23:52:01.525 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-06-25 23:52:01.535 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-06-25 23:52:01.536 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-06-25 23:52:01.536 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-06-25 23:52:01.580 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-06-25 23:52:01.580 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1083 ms
+2025-06-25 23:52:02.228 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-06-25 23:52:02.241 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-06-25 23:52:02.246 [main] INFO  com.banxia.TliasWebManagementApplication-Started TliasWebManagementApplication in 2.123 seconds (process running for 8.907)
+2025-06-25 23:52:56.115 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-25 23:52:56.116 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-06-25 23:52:56.118 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2025-06-25 23:52:56.183 [http-nio-8080-exec-1] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-25 23:52:56.214 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-06-25 23:52:56.966 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@57c1d7a
+2025-06-25 23:52:56.970 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-06-25 23:52:58.885 [http-nio-8080-exec-8] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-25 23:52:58.919 [http-nio-8080-exec-2] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)

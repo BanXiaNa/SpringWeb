@@ -1,0 +1,158 @@
+2025-06-21 20:48:10.095 [main] INFO  com.banxia.TliasWebManagementApplication-Starting TliasWebManagementApplication using Java 18.0.2.1 with PID 6444 (C:\Users\19432\OneDrive\Developer\springWeb\tlias-web-management\target\classes started by _ban_xia_ in C:\Users\19432\OneDrive\Developer\springWeb)
+2025-06-21 20:48:10.097 [main] INFO  com.banxia.TliasWebManagementApplication-No active profile set, falling back to 1 default profile: "default"
+2025-06-21 20:48:11.360 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-06-21 20:48:11.371 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-06-21 20:48:11.373 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-06-21 20:48:11.373 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-06-21 20:48:11.418 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-06-21 20:48:11.418 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1289 ms
+2025-06-21 20:48:12.096 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-06-21 20:48:12.113 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-06-21 20:48:12.118 [main] INFO  com.banxia.TliasWebManagementApplication-Started TliasWebManagementApplication in 2.364 seconds (process running for 3.219)
+2025-06-21 20:48:17.744 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-21 20:48:17.744 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-06-21 20:48:17.745 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2025-06-21 20:48:17.770 [http-nio-8080-exec-1] INFO  com.banxia.interceptor.TokenInterceptor-拦截到了请求...
+2025-06-21 20:48:17.770 [http-nio-8080-exec-1] INFO  com.banxia.interceptor.TokenInterceptor-令牌为空
+2025-06-21 20:48:43.942 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-21 20:48:44.055 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-06-21 20:48:46.493 [main] INFO  com.banxia.TliasWebManagementApplication-Starting TliasWebManagementApplication using Java 18.0.2.1 with PID 24580 (C:\Users\19432\OneDrive\Developer\springWeb\tlias-web-management\target\classes started by _ban_xia_ in C:\Users\19432\OneDrive\Developer\springWeb)
+2025-06-21 20:48:46.495 [main] INFO  com.banxia.TliasWebManagementApplication-No active profile set, falling back to 1 default profile: "default"
+2025-06-21 20:48:47.207 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-06-21 20:48:47.215 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-06-21 20:48:47.216 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-06-21 20:48:47.216 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-06-21 20:48:47.248 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-06-21 20:48:47.248 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 729 ms
+2025-06-21 20:48:47.419 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext-Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'webConfig': Unsatisfied dependency expressed through field 'tokenInterceptor': No qualifying bean of type 'com.banxia.interceptor.TokenInterceptor' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2025-06-21 20:48:47.423 [main] INFO  org.apache.catalina.core.StandardService-Stopping service [Tomcat]
+2025-06-21 20:48:47.431 [main] INFO  o.s.b.a.logging.ConditionEvaluationReportLogger-
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-06-21 20:48:47.443 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter-
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field tokenInterceptor in com.banxia.config.WebConfig required a bean of type 'com.banxia.interceptor.TokenInterceptor' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.banxia.interceptor.TokenInterceptor' in your configuration.
+
+2025-06-21 20:50:19.093 [main] INFO  com.banxia.TliasWebManagementApplication-Starting TliasWebManagementApplication using Java 18.0.2.1 with PID 8712 (C:\Users\19432\OneDrive\Developer\springWeb\tlias-web-management\target\classes started by _ban_xia_ in C:\Users\19432\OneDrive\Developer\springWeb)
+2025-06-21 20:50:19.094 [main] INFO  com.banxia.TliasWebManagementApplication-No active profile set, falling back to 1 default profile: "default"
+2025-06-21 20:50:19.804 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-06-21 20:50:19.812 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-06-21 20:50:19.813 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-06-21 20:50:19.813 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-06-21 20:50:19.844 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-06-21 20:50:19.844 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 727 ms
+2025-06-21 20:50:20.339 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-06-21 20:50:20.352 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-06-21 20:50:20.358 [main] INFO  com.banxia.TliasWebManagementApplication-Started TliasWebManagementApplication in 1.5 seconds (process running for 1.916)
+2025-06-21 20:50:24.930 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-21 20:50:24.930 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-06-21 20:50:24.931 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2025-06-21 20:50:24.954 [http-nio-8080-exec-1] ERROR com.banxia.exception.GlobalExceptionHandler-程序出错了：
+org.springframework.web.servlet.resource.NoResourceFoundException: No static resource api/depts.
+	at org.springframework.web.servlet.resource.ResourceHttpRequestHandler.handleRequest(ResourceHttpRequestHandler.java:585)
+	at org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter.handle(HttpRequestHandlerAdapter.java:52)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2025-06-21 20:51:21.284 [http-nio-8080-exec-2] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-21 20:51:21.304 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-06-21 20:51:21.638 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6e04d9e1
+2025-06-21 20:51:21.639 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-06-21 20:51:21.726 [http-nio-8080-exec-2] INFO  com.banxia.interceptor.TokenInterceptor-postHandle....
+2025-06-21 20:51:25.342 [http-nio-8080-exec-3] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-21 20:51:25.350 [http-nio-8080-exec-3] INFO  com.banxia.interceptor.TokenInterceptor-postHandle....
+2025-06-21 20:51:44.750 [http-nio-8080-exec-4] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-21 20:51:44.760 [http-nio-8080-exec-4] INFO  com.banxia.interceptor.TokenInterceptor-postHandle....
+2025-06-21 20:51:56.229 [http-nio-8080-exec-6] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-21 20:51:56.237 [http-nio-8080-exec-6] INFO  com.banxia.interceptor.TokenInterceptor-postHandle....
+2025-06-21 20:52:37.792 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-21 20:52:37.898 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-06-21 20:52:37.900 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-06-21 20:52:37.907 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2025-06-21 20:57:11.098 [main] INFO  com.banxia.TliasWebManagementApplication-Starting TliasWebManagementApplication using Java 18.0.2.1 with PID 23540 (C:\Users\19432\OneDrive\Developer\springWeb\tlias-web-management\target\classes started by _ban_xia_ in C:\Users\19432\OneDrive\Developer\springWeb)
+2025-06-21 20:57:11.099 [main] INFO  com.banxia.TliasWebManagementApplication-No active profile set, falling back to 1 default profile: "default"
+2025-06-21 20:57:11.832 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-06-21 20:57:11.843 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-06-21 20:57:11.844 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-06-21 20:57:11.844 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-06-21 20:57:11.876 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-06-21 20:57:11.876 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 753 ms
+2025-06-21 20:57:12.387 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-06-21 20:57:12.399 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-06-21 20:57:12.405 [main] INFO  com.banxia.TliasWebManagementApplication-Started TliasWebManagementApplication in 1.54 seconds (process running for 1.976)
+2025-06-21 20:57:15.253 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-21 20:57:15.253 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-06-21 20:57:15.254 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 0 ms
+2025-06-21 20:57:15.265 [http-nio-8080-exec-1] INFO  com.banxia.interceptor.TokenInterceptor-拦截到了请求...
+2025-06-21 20:57:15.265 [http-nio-8080-exec-1] INFO  com.banxia.interceptor.TokenInterceptor-令牌为空
+2025-06-21 20:59:14.070 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-21 20:59:14.171 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-06-21 20:59:48.369 [main] INFO  com.banxia.TliasWebManagementApplication-Starting TliasWebManagementApplication using Java 18.0.2.1 with PID 3528 (C:\Users\19432\OneDrive\Developer\springWeb\tlias-web-management\target\classes started by _ban_xia_ in C:\Users\19432\OneDrive\Developer\springWeb)
+2025-06-21 20:59:48.370 [main] INFO  com.banxia.TliasWebManagementApplication-No active profile set, falling back to 1 default profile: "default"
+2025-06-21 20:59:49.056 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-06-21 20:59:49.065 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-06-21 20:59:49.066 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-06-21 20:59:49.066 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-06-21 20:59:49.095 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-06-21 20:59:49.095 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 701 ms
+2025-06-21 20:59:49.593 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-06-21 20:59:49.607 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-06-21 20:59:49.613 [main] INFO  com.banxia.TliasWebManagementApplication-Started TliasWebManagementApplication in 1.504 seconds (process running for 1.924)
+2025-06-21 20:59:54.833 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-21 20:59:54.833 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-06-21 20:59:54.833 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 0 ms
+2025-06-21 20:59:54.849 [http-nio-8080-exec-1] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-21 20:59:54.861 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-06-21 20:59:55.023 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@460fbc59
+2025-06-21 20:59:55.025 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.

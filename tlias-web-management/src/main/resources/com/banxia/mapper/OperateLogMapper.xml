@@ -12,7 +12,7 @@
     </insert>
 
     <select id="page" resultType="com.banxia.pojo.OperateLog">
-        select * from operate_log;
+        select * from operate_log
     </select>
 </mapper>
 

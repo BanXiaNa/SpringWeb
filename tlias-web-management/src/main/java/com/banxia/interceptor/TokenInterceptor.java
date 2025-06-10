@@ -6,20 +6,18 @@ import io.jsonwebtoken.Claims;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.stereotype.Component;
 import org.springframework.web.servlet.HandlerInterceptor;
 import org.springframework.web.servlet.ModelAndView;
 
 
 @Slf4j
-@Component
+//@Component
 public class TokenInterceptor implements HandlerInterceptor {
 
 //    拦截前执行
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
         log.info("拦截到了请求...");
-
 //        获取请求头的Token
         String token = request.getHeader("token");
         if (token == null || token.isEmpty()) {

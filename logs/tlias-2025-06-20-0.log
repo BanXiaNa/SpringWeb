@@ -1,0 +1,29 @@
+2025-06-20 22:11:43.246 [main] INFO  com.banxia.TliasWebManagementApplication-Starting TliasWebManagementApplication using Java 18.0.2.1 with PID 33508 (C:\Users\19432\OneDrive\Developer\springWeb\tlias-web-management\target\classes started by _ban_xia_ in C:\Users\19432\OneDrive\Developer\springWeb)
+2025-06-20 22:11:43.247 [main] INFO  com.banxia.TliasWebManagementApplication-No active profile set, falling back to 1 default profile: "default"
+2025-06-20 22:11:44.000 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-06-20 22:11:44.009 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-06-20 22:11:44.011 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-06-20 22:11:44.011 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-06-20 22:11:44.045 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-06-20 22:11:44.045 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 774 ms
+2025-06-20 22:11:44.600 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-06-20 22:11:44.615 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-06-20 22:11:44.620 [main] INFO  com.banxia.TliasWebManagementApplication-Started TliasWebManagementApplication in 1.612 seconds (process running for 2.467)
+2025-06-20 22:14:01.273 [http-nio-8080-exec-1] INFO  org.apache.coyote.http11.Http11Processor-Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x010x060xb20x010x000x060xae0x030x030x9b0x840xcc0x99D0xc780x9b0x9bj0xd00xb70xcf0xf4u0xd8l0x990xc80x8d0x9f:0xea0x9120x890xe50xd00xc6}e0xf0 ]. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:409)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:270)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2025-06-20 22:15:18.235 [http-nio-8080-exec-5] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-20 22:15:18.235 [http-nio-8080-exec-5] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-06-20 22:15:18.235 [http-nio-8080-exec-5] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 0 ms
+2025-06-20 22:15:18.249 [http-nio-8080-exec-5] INFO  com.banxia.interceptor.TokenInterceptor-拦截到了请求...
+2025-06-20 22:15:18.298 [http-nio-8080-exec-5] INFO  com.banxia.interceptor.TokenInterceptor-令牌校验失败

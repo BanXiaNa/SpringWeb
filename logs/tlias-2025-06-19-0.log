@@ -1,0 +1,29 @@
+2025-06-19 18:17:46.893 [main] INFO  com.banxia.TliasWebManagementApplication-Starting TliasWebManagementApplication using Java 18.0.2.1 with PID 28188 (C:\Users\19432\OneDrive\Developer\springWeb\tlias-web-management\target\classes started by _ban_xia_ in C:\Users\19432\OneDrive\Developer\springWeb)
+2025-06-19 18:17:46.895 [main] INFO  com.banxia.TliasWebManagementApplication-No active profile set, falling back to 1 default profile: "default"
+2025-06-19 18:17:47.799 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-06-19 18:17:47.809 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-06-19 18:17:47.812 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-06-19 18:17:47.812 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-06-19 18:17:47.849 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-06-19 18:17:47.849 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 926 ms
+2025-06-19 18:17:48.473 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-06-19 18:17:48.489 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-06-19 18:17:48.494 [main] INFO  com.banxia.TliasWebManagementApplication-Started TliasWebManagementApplication in 1.88 seconds (process running for 6.894)
+2025-06-19 18:17:48.530 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-19 18:17:48.530 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-06-19 18:17:48.532 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 2 ms
+2025-06-19 18:17:48.545 [http-nio-8080-exec-1] INFO  com.banxia.interceptor.TokenInterceptor-拦截到了请求...
+2025-06-19 18:17:48.587 [http-nio-8080-exec-1] INFO  com.banxia.interceptor.TokenInterceptor-令牌校验失败
+2025-06-19 18:17:56.443 [http-nio-8080-exec-2] INFO  com.banxia.interceptor.TokenInterceptor-拦截到了请求...
+2025-06-19 18:17:56.444 [http-nio-8080-exec-2] INFO  com.banxia.interceptor.TokenInterceptor-令牌校验失败
+2025-06-19 18:18:16.203 [http-nio-8080-exec-3] INFO  com.banxia.controller.LoginController-用户登录：Emp(id=null, username=songjiang, password=123456, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2025-06-19 18:18:16.220 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-06-19 18:18:16.509 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@9e280cc
+2025-06-19 18:18:16.510 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-06-19 18:18:16.592 [http-nio-8080-exec-3] INFO  com.banxia.service.impl.EmpServiceImpl-用户登录：Emp(id=2, username=songjiang, password=null, name=宋江, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2025-06-19 18:18:21.618 [http-nio-8080-exec-4] INFO  com.banxia.interceptor.TokenInterceptor-拦截到了请求...
+2025-06-19 18:18:21.619 [http-nio-8080-exec-4] INFO  com.banxia.interceptor.TokenInterceptor-令牌校验失败
+2025-06-19 18:18:49.604 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-19 18:18:49.707 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-06-19 18:18:49.709 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-06-19 18:18:49.714 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.

@@ -1,0 +1,16 @@
+com\banxia\pojo\EmpQueryParam.class
+com\banxia\pojo\OperateLog.class
+com\banxia\pojo\Clazz.class
+com\banxia\pojo\StudentCountDataOption.class
+com\banxia\pojo\Dept.class
+com\banxia\pojo\EmpExpr.class
+com\banxia\pojo\StudentQueryParam.class
+com\banxia\pojo\NewClazz.class
+com\banxia\pojo\Emp.class
+com\banxia\pojo\PageResult.class
+com\banxia\pojo\EmpLog.class
+com\banxia\pojo\Result.class
+com\banxia\pojo\Student.class
+com\banxia\pojo\ClazzsQueryParam.class
+com\banxia\pojo\JobOption.class
+com\banxia\pojo\LoginInfo.class

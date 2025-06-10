@@ -8,7 +8,11 @@ import org.springframework.stereotype.Component;
 @Component
 @ConfigurationProperties(prefix = "aliyun.oss")
 public class AliyunOSSProperties {
+    // 阿里云OSS的配置属性
+    // Endpoint
     private String endpoint;
+    // Bucket名称
     private String bucketName;
+    // Bucket所在的区域
     private String region;
 }

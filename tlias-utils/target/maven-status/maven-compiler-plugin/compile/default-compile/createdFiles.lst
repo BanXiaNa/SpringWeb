@@ -1,0 +1,4 @@
+com\banxia\utils\AliyunOSSProperties.class
+com\banxia\utils\JwtUtils.class
+com\banxia\utils\CurrentHolder.class
+com\banxia\utils\AliyunOSSOperator.class

@@ -1,0 +1,728 @@
+2025-06-24 13:06:11.824 [main] INFO  com.banxia.TliasWebManagementApplication-Starting TliasWebManagementApplication using Java 18.0.2.1 with PID 25064 (C:\Users\19432\OneDrive\Developer\springWeb\tlias-web-management\target\classes started by _ban_xia_ in C:\Users\19432\OneDrive\Developer\springWeb)
+2025-06-24 13:06:11.825 [main] INFO  com.banxia.TliasWebManagementApplication-No active profile set, falling back to 1 default profile: "default"
+2025-06-24 13:06:12.842 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-06-24 13:06:12.855 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-06-24 13:06:12.856 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-06-24 13:06:12.857 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-06-24 13:06:12.916 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-06-24 13:06:12.916 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1062 ms
+2025-06-24 13:06:13.852 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-06-24 13:06:13.887 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-06-24 13:06:13.899 [main] INFO  com.banxia.TliasWebManagementApplication-Started TliasWebManagementApplication in 2.373 seconds (process running for 9.833)
+2025-06-24 13:51:36.279 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-24 13:51:36.280 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-06-24 13:51:36.284 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 4 ms
+2025-06-24 13:51:36.313 [http-nio-8080-exec-1] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-24 13:51:36.332 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-06-24 13:51:36.645 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@111cbb83
+2025-06-24 13:51:36.648 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-06-24 13:51:39.161 [http-nio-8080-exec-3] INFO  com.banxia.controller.DeptController-根据id查询部门数据：32
+2025-06-24 13:52:21.790 [http-nio-8080-exec-2] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-24 13:52:23.399 [http-nio-8080-exec-7] INFO  com.banxia.controller.DeptController-根据id查询部门数据：32
+2025-06-24 13:55:37.065 [http-nio-8080-exec-5] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-24 13:56:13.071 [http-nio-8080-exec-6] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-24 13:56:17.813 [http-nio-8080-exec-4] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-24 13:56:22.519 [http-nio-8080-exec-8] INFO  com.banxia.controller.DeptController-根据id查询部门数据：32
+2025-06-24 13:57:09.788 [http-nio-8080-exec-9] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-24 13:58:17.125 [http-nio-8080-exec-10] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-24 13:58:30.458 [http-nio-8080-exec-1] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-24 13:59:20.583 [http-nio-8080-exec-3] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-24 13:59:33.961 [http-nio-8080-exec-2] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-24 14:02:08.504 [http-nio-8080-exec-7] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-24 14:02:35.050 [http-nio-8080-exec-5] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-24 14:03:21.050 [http-nio-8080-exec-6] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-24 14:04:06.663 [http-nio-8080-exec-4] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-24 14:04:23.805 [http-nio-8080-exec-8] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-24 14:04:52.281 [http-nio-8080-exec-9] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-24 14:06:31.705 [http-nio-8080-exec-10] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-24 14:06:46.542 [http-nio-8080-exec-1] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-24 14:10:58.511 [http-nio-8080-exec-3] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-24 14:11:07.392 [http-nio-8080-exec-2] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-24 14:13:06.939 [http-nio-8080-exec-7] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-24 14:13:10.569 [http-nio-8080-exec-5] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-24 14:13:31.897 [http-nio-8080-exec-6] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-24 14:14:20.077 [http-nio-8080-exec-4] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-24 14:14:50.863 [http-nio-8080-exec-8] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-24 14:15:02.504 [http-nio-8080-exec-9] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-24 14:19:02.797 [http-nio-8080-exec-10] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-24 14:19:06.570 [http-nio-8080-exec-1] INFO  com.banxia.controller.DeptController-根据id查询部门数据：32
+2025-06-24 14:19:46.515 [http-nio-8080-exec-3] INFO  com.banxia.controller.DeptController-新增部门：Dept(id=null, name=啊啊啊, createTime=null, updateTime=null)
+2025-06-24 14:19:46.675 [http-nio-8080-exec-3] ERROR com.banxia.aop.LogAspect-方法执行异常
+org.springframework.dao.DuplicateKeyException: 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '啊啊啊' for key 'dept.name'
+### The error may exist in com/banxia/mapper/DeptMapper.xml
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: insert into dept (name, create_time, update_time) values (?,?,?)
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '啊啊啊' for key 'dept.name'
+; Duplicate entry '啊啊啊' for key 'dept.name'
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:254)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:107)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:93)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:347)
+	at jdk.proxy2/jdk.proxy2.$Proxy68.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:224)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:62)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:141)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy2/jdk.proxy2.$Proxy81.add(Unknown Source)
+	at com.banxia.service.impl.DeptServiceImpl.add(DeptServiceImpl.java:38)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at com.banxia.aop.LogAspect.around(LogAspect.java:88)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:642)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:632)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:71)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:173)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:727)
+	at com.banxia.service.impl.DeptServiceImpl$$SpringCGLIB$$0.add(<generated>)
+	at com.banxia.controller.DeptController.add(DeptController.java:46)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '啊啊啊' for key 'dept.name'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:109)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:988)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:382)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:58)
+	at jdk.proxy3/jdk.proxy3.$Proxy94.execute(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:48)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:75)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:61)
+	at jdk.proxy2/jdk.proxy2.$Proxy92.update(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:184)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:333)
+	... 73 common frames omitted
+2025-06-24 14:19:46.680 [http-nio-8080-exec-3] INFO  com.banxia.aop.LogAspect-记录日志：OperateLog(id=null, operateEmpId=null, operateTime=2025-06-24T14:19:46.677905700, className=com.banxia.service.impl.DeptServiceImpl, methodName=add, methodParams=[{"id":null,"name":"啊啊啊","createTime":null,"updateTime":null}], returnValue=null, costTime=155)
+2025-06-24 14:19:46.704 [http-nio-8080-exec-3] ERROR com.banxia.exception.GlobalExceptionHandler-重复的手机号：
+org.springframework.dao.DuplicateKeyException: 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '啊啊啊' for key 'dept.name'
+### The error may exist in com/banxia/mapper/DeptMapper.xml
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: insert into dept (name, create_time, update_time) values (?,?,?)
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '啊啊啊' for key 'dept.name'
+; Duplicate entry '啊啊啊' for key 'dept.name'
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:254)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:107)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:93)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:347)
+	at jdk.proxy2/jdk.proxy2.$Proxy68.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:224)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:62)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:141)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy2/jdk.proxy2.$Proxy81.add(Unknown Source)
+	at com.banxia.service.impl.DeptServiceImpl.add(DeptServiceImpl.java:38)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at com.banxia.aop.LogAspect.around(LogAspect.java:88)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:642)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:632)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:71)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:173)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:727)
+	at com.banxia.service.impl.DeptServiceImpl$$SpringCGLIB$$0.add(<generated>)
+	at com.banxia.controller.DeptController.add(DeptController.java:46)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '啊啊啊' for key 'dept.name'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:109)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:988)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:382)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:58)
+	at jdk.proxy3/jdk.proxy3.$Proxy94.execute(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:48)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:75)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:61)
+	at jdk.proxy2/jdk.proxy2.$Proxy92.update(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:184)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:333)
+	... 73 common frames omitted
+2025-06-24 14:19:49.185 [http-nio-8080-exec-2] INFO  com.banxia.controller.DeptController-新增部门：Dept(id=null, name=啊啊啊啊啊啊, createTime=null, updateTime=null)
+2025-06-24 14:19:49.195 [http-nio-8080-exec-2] INFO  com.banxia.aop.LogAspect-记录日志：OperateLog(id=null, operateEmpId=null, operateTime=2025-06-24T14:19:49.195935900, className=com.banxia.service.impl.DeptServiceImpl, methodName=add, methodParams=[{"id":null,"name":"啊啊啊啊啊啊","createTime":null,"updateTime":null}], returnValue=null, costTime=10)
+2025-06-24 14:19:49.209 [http-nio-8080-exec-7] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-24 14:19:50.764 [http-nio-8080-exec-5] INFO  com.banxia.controller.DeptController-根据id查询部门数据：34
+2025-06-24 14:19:54.335 [http-nio-8080-exec-6] INFO  com.banxia.controller.DeptController-根据id修改部门数据：Dept(id=34, name=啊啊啊啊, createTime=null, updateTime=null)
+2025-06-24 14:19:54.346 [http-nio-8080-exec-6] ERROR com.banxia.aop.LogAspect-方法执行异常
+org.springframework.dao.DuplicateKeyException: 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '啊啊啊啊' for key 'dept.name'
+### The error may exist in com/banxia/mapper/DeptMapper.xml
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: update dept set name = ?,update_time = ? where id = ?
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '啊啊啊啊' for key 'dept.name'
+; Duplicate entry '啊啊啊啊' for key 'dept.name'
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:254)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:107)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:93)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:347)
+	at jdk.proxy2/jdk.proxy2.$Proxy68.update(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.update(SqlSessionTemplate.java:234)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:67)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:141)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy2/jdk.proxy2.$Proxy81.updateById(Unknown Source)
+	at com.banxia.service.impl.DeptServiceImpl.updateById(DeptServiceImpl.java:51)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at com.banxia.aop.LogAspect.around(LogAspect.java:88)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:642)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:632)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:71)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:173)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:727)
+	at com.banxia.service.impl.DeptServiceImpl$$SpringCGLIB$$0.updateById(<generated>)
+	at com.banxia.controller.DeptController.updateById(DeptController.java:64)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPut(FrameworkServlet.java:925)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:593)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '啊啊啊啊' for key 'dept.name'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:109)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:988)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:382)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:58)
+	at jdk.proxy3/jdk.proxy3.$Proxy94.execute(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:48)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:75)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:61)
+	at jdk.proxy2/jdk.proxy2.$Proxy92.update(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:333)
+	... 73 common frames omitted
+2025-06-24 14:19:54.348 [http-nio-8080-exec-6] INFO  com.banxia.aop.LogAspect-记录日志：OperateLog(id=null, operateEmpId=null, operateTime=2025-06-24T14:19:54.348506, className=com.banxia.service.impl.DeptServiceImpl, methodName=updateById, methodParams=[{"id":34,"name":"啊啊啊啊","createTime":null,"updateTime":null}], returnValue=null, costTime=13)
+2025-06-24 14:19:54.352 [http-nio-8080-exec-6] ERROR com.banxia.exception.GlobalExceptionHandler-重复的手机号：
+org.springframework.dao.DuplicateKeyException: 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '啊啊啊啊' for key 'dept.name'
+### The error may exist in com/banxia/mapper/DeptMapper.xml
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: update dept set name = ?,update_time = ? where id = ?
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '啊啊啊啊' for key 'dept.name'
+; Duplicate entry '啊啊啊啊' for key 'dept.name'
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:254)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:107)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:93)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:347)
+	at jdk.proxy2/jdk.proxy2.$Proxy68.update(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.update(SqlSessionTemplate.java:234)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:67)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:141)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy2/jdk.proxy2.$Proxy81.updateById(Unknown Source)
+	at com.banxia.service.impl.DeptServiceImpl.updateById(DeptServiceImpl.java:51)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at com.banxia.aop.LogAspect.around(LogAspect.java:88)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:642)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:632)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:71)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:173)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:727)
+	at com.banxia.service.impl.DeptServiceImpl$$SpringCGLIB$$0.updateById(<generated>)
+	at com.banxia.controller.DeptController.updateById(DeptController.java:64)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPut(FrameworkServlet.java:925)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:593)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '啊啊啊啊' for key 'dept.name'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:109)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:988)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:382)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:58)
+	at jdk.proxy3/jdk.proxy3.$Proxy94.execute(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:48)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:75)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:61)
+	at jdk.proxy2/jdk.proxy2.$Proxy92.update(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:333)
+	... 73 common frames omitted
+2025-06-24 14:19:56.546 [http-nio-8080-exec-4] INFO  com.banxia.controller.DeptController-根据id修改部门数据：Dept(id=34, name=啊啊啊啊啊, createTime=null, updateTime=null)
+2025-06-24 14:19:56.550 [http-nio-8080-exec-4] INFO  com.banxia.aop.LogAspect-记录日志：OperateLog(id=null, operateEmpId=null, operateTime=2025-06-24T14:19:56.550900800, className=com.banxia.service.impl.DeptServiceImpl, methodName=updateById, methodParams=[{"id":34,"name":"啊啊啊啊啊","createTime":null,"updateTime":null}], returnValue=null, costTime=4)
+2025-06-24 14:19:56.562 [http-nio-8080-exec-8] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-24 14:26:56.548 [http-nio-8080-exec-9] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-24 14:27:49.243 [http-nio-8080-exec-10] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-24 14:27:53.078 [http-nio-8080-exec-1] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-24 14:28:02.391 [http-nio-8080-exec-3] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-24 14:30:09.505 [http-nio-8080-exec-2] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-24 14:30:37.829 [http-nio-8080-exec-7] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-24 14:30:56.328 [http-nio-8080-exec-5] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-24 14:31:07.672 [http-nio-8080-exec-6] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-24 14:31:11.341 [http-nio-8080-exec-4] ERROR com.banxia.exception.GlobalExceptionHandler-程序出错了：
+java.lang.IllegalStateException: Optional int parameter 'id' is present but cannot be translated into a null value due to being declared as a primitive type. Consider declaring it as object wrapper for the corresponding primitive type.
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.handleNullValue(AbstractNamedValueMethodArgumentResolver.java:271)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:128)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:227)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:181)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doDelete(FrameworkServlet.java:936)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:596)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2025-06-24 14:32:19.719 [http-nio-8080-exec-8] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-24 14:34:09.346 [http-nio-8080-exec-9] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-24 14:34:29.849 [http-nio-8080-exec-10] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-24 14:34:43.645 [http-nio-8080-exec-1] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-24 14:35:14.286 [http-nio-8080-exec-3] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-24 14:35:19.011 [http-nio-8080-exec-2] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-24 14:35:22.520 [http-nio-8080-exec-7] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-24 14:36:46.819 [http-nio-8080-exec-5] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-24 14:36:57.639 [http-nio-8080-exec-6] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-24 14:37:25.733 [http-nio-8080-exec-4] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-24 14:38:22.948 [http-nio-8080-exec-8] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-24 14:38:45.435 [http-nio-8080-exec-9] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-24 14:38:48.913 [http-nio-8080-exec-10] ERROR com.banxia.exception.GlobalExceptionHandler-程序出错了：
+java.lang.IllegalStateException: Optional int parameter 'id' is present but cannot be translated into a null value due to being declared as a primitive type. Consider declaring it as object wrapper for the corresponding primitive type.
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.handleNullValue(AbstractNamedValueMethodArgumentResolver.java:271)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:128)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:227)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:181)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doDelete(FrameworkServlet.java:936)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:596)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2025-06-24 14:39:05.296 [http-nio-8080-exec-1] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-24 14:39:09.779 [http-nio-8080-exec-3] INFO  com.banxia.controller.DeptController-根据ID删除部门：34
+2025-06-24 14:39:09.790 [http-nio-8080-exec-3] INFO  com.banxia.aop.LogAspect-记录日志：OperateLog(id=null, operateEmpId=null, operateTime=2025-06-24T14:39:09.790885, className=com.banxia.service.impl.DeptServiceImpl, methodName=deleteById, methodParams=[34], returnValue=null, costTime=10)
+2025-06-24 14:39:09.801 [http-nio-8080-exec-2] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-24 14:39:12.444 [http-nio-8080-exec-7] INFO  com.banxia.controller.DeptController-根据ID删除部门：32
+2025-06-24 14:39:12.453 [http-nio-8080-exec-7] INFO  com.banxia.aop.LogAspect-记录日志：OperateLog(id=null, operateEmpId=null, operateTime=2025-06-24T14:39:12.453547400, className=com.banxia.service.impl.DeptServiceImpl, methodName=deleteById, methodParams=[32], returnValue=null, costTime=9)
+2025-06-24 14:39:12.464 [http-nio-8080-exec-5] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-24 14:39:19.101 [http-nio-8080-exec-6] INFO  com.banxia.controller.DeptController-根据ID删除部门：31
+2025-06-24 14:39:19.106 [http-nio-8080-exec-6] INFO  com.banxia.aop.LogAspect-记录日志：OperateLog(id=null, operateEmpId=null, operateTime=2025-06-24T14:39:19.106113600, className=com.banxia.service.impl.DeptServiceImpl, methodName=deleteById, methodParams=[31], returnValue=null, costTime=5)
+2025-06-24 14:39:19.119 [http-nio-8080-exec-4] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-24 14:39:28.920 [http-nio-8080-exec-8] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-24 14:39:33.815 [http-nio-8080-exec-9] INFO  com.banxia.controller.DeptController-根据ID删除部门：30
+2025-06-24 14:39:33.820 [http-nio-8080-exec-9] INFO  com.banxia.aop.LogAspect-记录日志：OperateLog(id=null, operateEmpId=null, operateTime=2025-06-24T14:39:33.820127500, className=com.banxia.service.impl.DeptServiceImpl, methodName=deleteById, methodParams=[30], returnValue=null, costTime=5)
+2025-06-24 14:39:33.831 [http-nio-8080-exec-10] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-24 14:39:36.093 [http-nio-8080-exec-1] INFO  com.banxia.controller.DeptController-根据ID删除部门：29
+2025-06-24 14:39:36.097 [http-nio-8080-exec-1] INFO  com.banxia.aop.LogAspect-记录日志：OperateLog(id=null, operateEmpId=null, operateTime=2025-06-24T14:39:36.097163600, className=com.banxia.service.impl.DeptServiceImpl, methodName=deleteById, methodParams=[29], returnValue=null, costTime=4)
+2025-06-24 14:39:36.109 [http-nio-8080-exec-3] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-24 14:39:40.391 [http-nio-8080-exec-2] INFO  com.banxia.controller.DeptController-根据ID删除部门：27
+2025-06-24 14:39:40.399 [http-nio-8080-exec-2] INFO  com.banxia.aop.LogAspect-记录日志：OperateLog(id=null, operateEmpId=null, operateTime=2025-06-24T14:39:40.399129, className=com.banxia.service.impl.DeptServiceImpl, methodName=deleteById, methodParams=[27], returnValue=null, costTime=8)
+2025-06-24 14:39:40.411 [http-nio-8080-exec-7] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-24 14:39:42.161 [http-nio-8080-exec-5] INFO  com.banxia.controller.DeptController-根据ID删除部门：26
+2025-06-24 14:39:42.169 [http-nio-8080-exec-5] INFO  com.banxia.aop.LogAspect-记录日志：OperateLog(id=null, operateEmpId=null, operateTime=2025-06-24T14:39:42.168334700, className=com.banxia.service.impl.DeptServiceImpl, methodName=deleteById, methodParams=[26], returnValue=null, costTime=7)
+2025-06-24 14:39:42.183 [http-nio-8080-exec-6] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-24 14:39:45.130 [http-nio-8080-exec-4] INFO  com.banxia.controller.DeptController-根据ID删除部门：25
+2025-06-24 14:39:45.133 [http-nio-8080-exec-4] INFO  com.banxia.aop.LogAspect-记录日志：OperateLog(id=null, operateEmpId=null, operateTime=2025-06-24T14:39:45.133569200, className=com.banxia.service.impl.DeptServiceImpl, methodName=deleteById, methodParams=[25], returnValue=null, costTime=3)
+2025-06-24 14:39:45.144 [http-nio-8080-exec-8] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-24 14:39:47.785 [http-nio-8080-exec-9] INFO  com.banxia.controller.DeptController-根据ID删除部门：24
+2025-06-24 14:39:47.790 [http-nio-8080-exec-9] INFO  com.banxia.aop.LogAspect-记录日志：OperateLog(id=null, operateEmpId=null, operateTime=2025-06-24T14:39:47.790295500, className=com.banxia.service.impl.DeptServiceImpl, methodName=deleteById, methodParams=[24], returnValue=null, costTime=5)
+2025-06-24 14:39:47.799 [http-nio-8080-exec-10] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-24 14:39:51.373 [http-nio-8080-exec-1] INFO  com.banxia.controller.DeptController-根据ID删除部门：7
+2025-06-24 14:39:51.377 [http-nio-8080-exec-1] INFO  com.banxia.aop.LogAspect-记录日志：OperateLog(id=null, operateEmpId=null, operateTime=2025-06-24T14:39:51.377450, className=com.banxia.service.impl.DeptServiceImpl, methodName=deleteById, methodParams=[7], returnValue=null, costTime=4)
+2025-06-24 14:39:51.391 [http-nio-8080-exec-3] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-24 14:55:50.606 [http-nio-8080-exec-2] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-24 14:58:47.731 [http-nio-8080-exec-7] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-24 15:03:38.659 [http-nio-8080-exec-5] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-24 15:57:23.779 [http-nio-8080-exec-6] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-24 16:21:52.150 [http-nio-8080-exec-4] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-24 16:44:00.682 [http-nio-8080-exec-8] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=100, name=, gender=null, begin=null, end=null)
+2025-06-24 16:45:34.448 [http-nio-8080-exec-9] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=5, name=李, gender=null, begin=null, end=null)
+2025-06-24 16:46:12.270 [http-nio-8080-exec-10] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=5, name=半夏, gender=null, begin=null, end=null)
+2025-06-24 16:49:58.407 [http-nio-8080-exec-1] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=100, name=, gender=null, begin=null, end=null)
+2025-06-24 16:50:05.900 [http-nio-8080-exec-3] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=100, name=, gender=null, begin=null, end=null)
+2025-06-24 16:50:11.794 [http-nio-8080-exec-2] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-06-24 16:50:44.974 [http-nio-8080-exec-7] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-06-24 16:52:47.990 [http-nio-8080-exec-5] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=5, name=, gender=null, begin=null, end=null)
+2025-06-24 16:55:11.396 [http-nio-8080-exec-6] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-06-24 16:55:13.654 [http-nio-8080-exec-4] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=20, name=, gender=null, begin=null, end=null)
+2025-06-24 16:55:14.125 [http-nio-8080-exec-8] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-06-24 16:55:14.847 [http-nio-8080-exec-9] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=20, name=, gender=null, begin=null, end=null)
+2025-06-24 16:55:15.799 [http-nio-8080-exec-10] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=75, name=, gender=null, begin=null, end=null)
+2025-06-24 16:55:16.181 [http-nio-8080-exec-1] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=100, name=, gender=null, begin=null, end=null)
+2025-06-24 16:55:20.732 [http-nio-8080-exec-3] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-06-24 16:55:23.878 [http-nio-8080-exec-2] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=5, name=, gender=null, begin=null, end=null)
+2025-06-24 16:55:25.667 [http-nio-8080-exec-7] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=100, name=, gender=null, begin=null, end=null)
+2025-06-24 16:57:22.444 [http-nio-8080-exec-5] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=5, name=, gender=null, begin=null, end=null)
+2025-06-24 16:57:24.808 [http-nio-8080-exec-6] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=5, pageSize=5, name=, gender=null, begin=null, end=null)
+2025-06-24 16:57:47.204 [http-nio-8080-exec-4] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=4, pageSize=5, name=, gender=null, begin=null, end=null)
+2025-06-24 16:57:48.316 [http-nio-8080-exec-8] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=3, pageSize=5, name=, gender=null, begin=null, end=null)
+2025-06-24 16:57:48.809 [http-nio-8080-exec-9] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=5, pageSize=5, name=, gender=null, begin=null, end=null)
+2025-06-24 16:57:49.583 [http-nio-8080-exec-10] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=6, pageSize=5, name=, gender=null, begin=null, end=null)
+2025-06-24 16:57:53.590 [http-nio-8080-exec-1] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=7, pageSize=5, name=, gender=null, begin=null, end=null)
+2025-06-24 16:57:58.804 [http-nio-8080-exec-3] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=4, pageSize=5, name=, gender=null, begin=null, end=null)
+2025-06-24 16:57:59.436 [http-nio-8080-exec-2] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=5, name=, gender=null, begin=null, end=null)
+2025-06-24 16:58:25.923 [http-nio-8080-exec-7] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-06-24 17:02:13.496 [http-nio-8080-exec-5] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-06-24 17:02:40.453 [http-nio-8080-exec-6] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-06-24 17:08:08.841 [http-nio-8080-exec-4] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-06-24 17:08:16.000 [http-nio-8080-exec-8] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-06-24 17:09:42.901 [http-nio-8080-exec-9] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-06-24 17:09:51.383 [http-nio-8080-exec-10] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-06-24 17:10:02.080 [http-nio-8080-exec-1] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-06-24 17:12:08.751 [http-nio-8080-exec-3] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-06-24 17:12:52.118 [http-nio-8080-exec-2] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-06-24 17:17:48.186 [http-nio-8080-exec-7] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-06-24 18:49:12.616 [http-nio-8080-exec-5] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-06-24 18:50:34.232 [http-nio-8080-exec-6] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-06-24 18:50:49.266 [http-nio-8080-exec-4] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-06-24 18:52:00.665 [http-nio-8080-exec-8] INFO  com.banxia.controller.UploadController-文件上传：屏幕截图 2025-04-19 092212.png
+2025-06-24 18:52:01.378 [http-nio-8080-exec-8] INFO  com.banxia.controller.UploadController-文件上传OSS，URL：https://banxia-java.oss-cn-beijing.aliyuncs.com/2025/06/3e5f7c74-8a5b-4fad-a14c-eacee714185c.png
+2025-06-24 18:52:03.849 [http-nio-8080-exec-9] INFO  com.banxia.controller.UploadController-文件上传：屏幕截图 2025-04-19 092528.png
+2025-06-24 18:52:04.666 [http-nio-8080-exec-9] INFO  com.banxia.controller.UploadController-文件上传OSS，URL：https://banxia-java.oss-cn-beijing.aliyuncs.com/2025/06/13b1ab91-baff-4c35-abf2-e10b4b81b4e2.png
+2025-06-24 18:53:18.193 [http-nio-8080-exec-10] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-06-24 20:01:52.338 [http-nio-8080-exec-1] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-06-24 20:46:27.979 [http-nio-8080-exec-3] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-06-24 20:53:58.887 [http-nio-8080-exec-2] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-06-24 20:54:39.820 [http-nio-8080-exec-7] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-24 20:54:40.375 [http-nio-8080-exec-5] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-06-24 20:54:41.007 [http-nio-8080-exec-6] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-24 20:55:17.777 [http-nio-8080-exec-4] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-06-24 21:01:04.212 [http-nio-8080-exec-8] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-06-24 21:05:54.892 [http-nio-8080-exec-9] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-24 21:06:00.158 [http-nio-8080-exec-10] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-06-24 21:07:56.406 [http-nio-8080-exec-1] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-06-24 21:08:47.780 [http-nio-8080-exec-3] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-06-24 21:08:53.404 [http-nio-8080-exec-2] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-06-24 21:08:59.166 [http-nio-8080-exec-7] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-06-24 21:08:59.169 [http-nio-8080-exec-5] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-24 21:12:49.337 [http-nio-8080-exec-4] INFO  com.banxia.controller.DeptController-查询全部的部门数据
+2025-06-24 21:12:49.338 [http-nio-8080-exec-6] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-06-24 21:14:13.840 [http-nio-8080-exec-8] INFO  com.banxia.controller.EmpController-分页查询：EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2025-06-24 21:14:13.849 [http-nio-8080-exec-9] INFO  com.banxia.controller.DeptController-查询全部的部门数据

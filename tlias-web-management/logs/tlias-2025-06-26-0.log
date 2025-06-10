@@ -1,0 +1,61 @@
+2025-06-26 00:43:38.320 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils-Could not detect default configuration classes for test class [com.banxia.DelTest]: DelTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-06-26 00:43:38.428 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper-Found @SpringBootConfiguration com.banxia.TliasWebManagementApplication for test class com.banxia.DelTest
+2025-06-26 00:43:38.751 [main] INFO  com.banxia.DelTest-Starting DelTest using Java 18.0.2.1 with PID 27628 (started by _ban_xia_ in C:\Users\19432\OneDrive\Developer\springWeb\tlias-web-management)
+2025-06-26 00:43:38.752 [main] INFO  com.banxia.DelTest-No active profile set, falling back to 1 default profile: "default"
+2025-06-26 00:43:40.532 [main] INFO  com.banxia.DelTest-Started DelTest in 2.007 seconds (process running for 2.991)
+2025-06-26 00:44:54.475 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils-Could not detect default configuration classes for test class [com.banxia.DelTest]: DelTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-06-26 00:44:54.577 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper-Found @SpringBootConfiguration com.banxia.TliasWebManagementApplication for test class com.banxia.DelTest
+2025-06-26 00:44:54.897 [main] INFO  com.banxia.DelTest-Starting DelTest using Java 18.0.2.1 with PID 10420 (started by _ban_xia_ in C:\Users\19432\OneDrive\Developer\springWeb\tlias-web-management)
+2025-06-26 00:44:54.897 [main] INFO  com.banxia.DelTest-No active profile set, falling back to 1 default profile: "default"
+2025-06-26 00:44:56.686 [main] INFO  com.banxia.DelTest-Started DelTest in 2.008 seconds (process running for 2.944)
+2025-06-26 00:46:13.281 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils-Could not detect default configuration classes for test class [com.banxia.DelTest]: DelTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-06-26 00:46:13.378 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper-Found @SpringBootConfiguration com.banxia.TliasWebManagementApplication for test class com.banxia.DelTest
+2025-06-26 00:46:13.699 [main] INFO  com.banxia.DelTest-Starting DelTest using Java 18.0.2.1 with PID 8556 (started by _ban_xia_ in C:\Users\19432\OneDrive\Developer\springWeb\tlias-web-management)
+2025-06-26 00:46:13.700 [main] INFO  com.banxia.DelTest-No active profile set, falling back to 1 default profile: "default"
+2025-06-26 00:46:15.497 [main] INFO  com.banxia.DelTest-Started DelTest in 2.013 seconds (process running for 2.948)
+2025-06-26 00:47:14.646 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils-Could not detect default configuration classes for test class [com.banxia.DelTest]: DelTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-06-26 00:47:14.741 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper-Found @SpringBootConfiguration com.banxia.TliasWebManagementApplication for test class com.banxia.DelTest
+2025-06-26 00:47:15.074 [main] INFO  com.banxia.DelTest-Starting DelTest using Java 18.0.2.1 with PID 10420 (started by _ban_xia_ in C:\Users\19432\OneDrive\Developer\springWeb\tlias-web-management)
+2025-06-26 00:47:15.074 [main] INFO  com.banxia.DelTest-No active profile set, falling back to 1 default profile: "default"
+2025-06-26 00:47:16.803 [main] INFO  com.banxia.DelTest-Started DelTest in 1.955 seconds (process running for 2.878)
+2025-06-26 00:47:54.335 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils-Could not detect default configuration classes for test class [com.banxia.DelTest]: DelTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-06-26 00:47:54.430 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper-Found @SpringBootConfiguration com.banxia.TliasWebManagementApplication for test class com.banxia.DelTest
+2025-06-26 00:47:54.760 [main] INFO  com.banxia.DelTest-Starting DelTest using Java 18.0.2.1 with PID 28080 (started by _ban_xia_ in C:\Users\19432\OneDrive\Developer\springWeb\tlias-web-management)
+2025-06-26 00:47:54.761 [main] INFO  com.banxia.DelTest-No active profile set, falling back to 1 default profile: "default"
+2025-06-26 00:47:56.546 [main] INFO  com.banxia.DelTest-Started DelTest in 2.008 seconds (process running for 2.939)
+2025-06-26 01:20:30.856 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils-Could not detect default configuration classes for test class [com.banxia.DelTest]: DelTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-06-26 01:20:30.955 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper-Found @SpringBootConfiguration com.banxia.TliasWebManagementApplication for test class com.banxia.DelTest
+2025-06-26 01:20:31.397 [main] INFO  com.banxia.DelTest-Starting DelTest using Java 18.0.2.1 with PID 4396 (started by _ban_xia_ in C:\Users\19432\OneDrive\Developer\springWeb\tlias-web-management)
+2025-06-26 01:20:31.398 [main] INFO  com.banxia.DelTest-No active profile set, falling back to 1 default profile: "default"
+2025-06-26 01:20:32.996 [main] INFO  com.banxia.DelTest-Started DelTest in 1.939 seconds (process running for 2.852)
+2025-06-26 01:20:33.621 [main] INFO  com.banxia.controller.DeleteController-删除文件：/2025/06/c7a897aa-8019-4231-865d-c3a8e16d492a.txt
+2025-06-26 01:20:34.158 [main] INFO  com.banxia.aop.LogAspect-记录日志：OperateLog(id=null, operateEmpId=null, operateTime=2025-06-26T01:20:34.154224800, className=com.banxia.controller.DeleteController, methodName=deleteByPath, methodParams=["/2025/06/c7a897aa-8019-4231-865d-c3a8e16d492a.txt"], returnValue={"code":1,"msg":"success","data":null}, costTime=529)
+2025-06-26 01:20:34.171 [main] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-06-26 01:20:34.298 [main] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3741071d
+2025-06-26 01:20:34.301 [main] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-06-26 01:20:34.368 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-06-26 01:20:34.371 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2025-06-26 01:20:58.932 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils-Could not detect default configuration classes for test class [com.banxia.DelTest]: DelTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-06-26 01:20:59.011 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper-Found @SpringBootConfiguration com.banxia.TliasWebManagementApplication for test class com.banxia.DelTest
+2025-06-26 01:20:59.304 [main] INFO  com.banxia.DelTest-Starting DelTest using Java 18.0.2.1 with PID 28676 (started by _ban_xia_ in C:\Users\19432\OneDrive\Developer\springWeb\tlias-web-management)
+2025-06-26 01:20:59.304 [main] INFO  com.banxia.DelTest-No active profile set, falling back to 1 default profile: "default"
+2025-06-26 01:21:01.061 [main] INFO  com.banxia.DelTest-Started DelTest in 1.964 seconds (process running for 2.705)
+2025-06-26 01:21:01.698 [main] INFO  com.banxia.controller.DeleteController-删除文件：2025/06/c7a897aa-8019-4231-865d-c3a8e16d492a.txt
+2025-06-26 01:21:02.143 [main] INFO  com.banxia.aop.LogAspect-记录日志：OperateLog(id=null, operateEmpId=null, operateTime=2025-06-26T01:21:02.140425800, className=com.banxia.controller.DeleteController, methodName=deleteByPath, methodParams=["2025/06/c7a897aa-8019-4231-865d-c3a8e16d492a.txt"], returnValue={"code":1,"msg":"success","data":null}, costTime=438)
+2025-06-26 01:21:02.157 [main] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-06-26 01:21:02.286 [main] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@56b48163
+2025-06-26 01:21:02.288 [main] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-06-26 01:21:02.351 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-06-26 01:21:02.354 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2025-06-26 01:21:30.664 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils-Could not detect default configuration classes for test class [com.banxia.DelTest]: DelTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-06-26 01:21:30.742 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper-Found @SpringBootConfiguration com.banxia.TliasWebManagementApplication for test class com.banxia.DelTest
+2025-06-26 01:21:31.031 [main] INFO  com.banxia.DelTest-Starting DelTest using Java 18.0.2.1 with PID 30496 (started by _ban_xia_ in C:\Users\19432\OneDrive\Developer\springWeb\tlias-web-management)
+2025-06-26 01:21:31.032 [main] INFO  com.banxia.DelTest-No active profile set, falling back to 1 default profile: "default"
+2025-06-26 01:21:32.607 [main] INFO  com.banxia.DelTest-Started DelTest in 1.77 seconds (process running for 2.557)
+2025-06-26 01:21:33.166 [main] INFO  com.banxia.controller.DeleteController-删除文件：2025/06/ecbae26b-2907-4cd1-8ead-985fda5731d8.png
+2025-06-26 01:21:33.801 [main] INFO  com.banxia.aop.LogAspect-记录日志：OperateLog(id=null, operateEmpId=null, operateTime=2025-06-26T01:21:33.797957200, className=com.banxia.controller.DeleteController, methodName=deleteByPath, methodParams=["2025/06/ecbae26b-2907-4cd1-8ead-985fda5731d8.png"], returnValue={"code":1,"msg":"success","data":null}, costTime=629)
+2025-06-26 01:21:33.814 [main] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-06-26 01:21:33.929 [main] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6e0f259e
+2025-06-26 01:21:33.931 [main] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-06-26 01:21:33.980 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-06-26 01:21:33.981 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
