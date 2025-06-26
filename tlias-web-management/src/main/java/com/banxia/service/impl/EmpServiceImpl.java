@@ -146,4 +146,9 @@ public class EmpServiceImpl implements EmpService {
 //        不存在，返回null
         return null;
     }
+
+    @Override
+    public List<Emp> findByPosition(Integer jobId) {
+        return empMapper.findByPosition(jobId);
+    }
 }

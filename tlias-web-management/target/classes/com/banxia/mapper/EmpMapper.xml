@@ -101,6 +101,11 @@
         select id,username,name from emp where username = #{username} and password = #{password}
     </select>
 
+<!--    根据职位查找员工-->
+    <select id="findByPosition" resultType="com.banxia.pojo.Emp">
+        select * from emp where job = #{job}
+    </select>
+
 
     <!--    员工信息字段分配-->
     <resultMap id="empResultMap" type="com.banxia.pojo.Emp">

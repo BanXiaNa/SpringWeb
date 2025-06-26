@@ -81,7 +81,7 @@ public class EmpController {
      * @param id
      * @return
      */
-    @GetMapping("/{id}")
+        @GetMapping("/{id}")
     public Result getInfo(@PathVariable Integer id) {
         log.info("根据id查询信息：{}",id);
         Emp emp =  empService.getInfo(id);
@@ -108,6 +108,17 @@ public class EmpController {
     public Result findAll() {
         log.info("查询所有员工信息。");
         List<Emp> list = empService.findAll();
+        return Result.success(list);
+    }
+
+    /**
+     * 根据职位查找员工
+     * @author _ban_xia_
+     */
+    @GetMapping("/job")
+    public Result findByPosition(Integer jobId) {
+        log.info("根据职位查找员工：{}", jobId);
+        List<Emp> list = empService.findByPosition(jobId);
         return Result.success(list);
     }
 }

@@ -54,4 +54,6 @@ public interface EmpService {
      * @return
      */
     LoginInfo login(Emp emp);
+
+    List<Emp> findByPosition(Integer jobId);
 }

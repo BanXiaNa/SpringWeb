@@ -72,4 +72,6 @@ public interface EmpMapper {
     List<Emp> findAll();
 
     Emp selsectByUsernameAndPassword(Emp emp);
+
+    List<Emp> findByPosition(Integer jobId);
 }
